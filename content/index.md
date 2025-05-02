@@ -1,6 +1,5 @@
 ---
-title: Welcome to Quartz
+title: Welcome to My Wiki!
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is a place where I plan to structure and share my knowledge. 
