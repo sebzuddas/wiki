@@ -1,0 +1,1 @@
+Typically uses [[Machine Learning]] or other data-driven approaches to process [[Industrial Internet of Things (IIoT)|iIoT]] data to detect when failure will occur before it occurs. 
