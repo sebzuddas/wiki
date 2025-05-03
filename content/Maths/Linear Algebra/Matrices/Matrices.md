@@ -68,6 +68,7 @@ We calculate $A \times B=D$ by multiplying each row of $A$ by the column vector 
 $$
 D = \begin{pmatrix} \color{red}{1}\times \color{red}{1} + \color{lightblue}{2}\times \color{lightblue}{0} + \color{green}{3}\times \color{green}{-1} \\ \color{red}{4}\times \color{red}{1} + \color{lightblue}{5}\times \color{lightblue}{0} + \color{green}{6}\times \color{green}{-1} \\ \color{red}{7}\times \color{red}{1} + \color{lightblue}{8}\times \color{lightblue}{0} + \color{green}{9}\times \color{green}{-1} \end{pmatrix} = \begin{pmatrix} \color{red}{1} + \color{lightblue}{0} + \color{green}{-3} \\ \color{red}{4} + \color{lightblue}{0} + \color{green}{-6} \\ \color{red}{7} + \color{lightblue}{0} + \color{green}{-9} \end{pmatrix} = \begin{pmatrix} -2 \\ -2 \\ -2 \end{pmatrix}​​
 $$
+
 Here, each row in $A$ is multiplied element-by-element with the single column in $B$. The colour coding helps track how each corresponding element from the row and column is used in the multiplication.
 
 ---
@@ -87,6 +88,7 @@ D = \begin{pmatrix} (\color{red}{1}\times \color{red}{1} + \color{lightblue}{2}\
 $$​​
 
 This simplifies to:
+
 $$
 D = \begin{pmatrix} (\color{red}{1} + \color{lightblue}{0} + \color{green}{-3}) & (\color{red}{0} + \color{lightblue}{2} + \color{green}{0}) \\ (\color{red}{4} + \color{lightblue}{0} + \color{green}{-6}) & (\color{red}{0} + \color{lightblue}{5} + \color{green}{0}) \\ (\color{red}{7} + \color{lightblue}{0} + \color{green}{-9}) & (\color{red}{0} + \color{lightblue}{8} + \color{green}{0}) \end{pmatrix} = \begin{pmatrix} -2 & 2 \\ -2 & 5 \\ -2 & 8 \end{pmatrix}​​
 $$
