@@ -2,4 +2,4 @@
 title: Welcome to My Wiki!
 ---
 
-This is a place where I plan to structure and share my knowledge. 
+This is a place where I plan to structure and share my knowledge. To do this, I use a 'structure as is needed' approach. 
