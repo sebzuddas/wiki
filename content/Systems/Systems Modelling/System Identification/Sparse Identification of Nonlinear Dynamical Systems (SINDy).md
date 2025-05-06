@@ -9,12 +9,13 @@ Sparse Identification of Nonlinear Dynamical Systems (SINDy) is a relatively new
 # Why use SINDy?
 
 ## 1. Convenience
-Although SINDy is only a method for conducting [[System Identification|system identification]], it is different enough from traditional techniques to warrant its own page. Whilst [[System Identification#^088a7d|NARMAX]] is an appropriate technique for nonlinear system identification, it has a key limitation. [[System Identification#^088a7d|NARMAX]] outputs an equation in the [[Laplace Transform#^9847d1|Laplace Domain]], whereas SINDy outputs a [[State-space Control|state space]] equation, making it particularly convenient to develop models such using advanced control techniques such as [[Model Predictive Control (MPC)]].
+Although SINDy is only a method for conducting [[System Identification|system identification]], it is different enough from traditional techniques to warrant its own page. Whilst [[System Identification#^088a7d|NARMAX]] is an appropriate technique for nonlinear system identification, it has a key limitation. [[System Identification#^088a7d|NARMAX]] outputs a linear equation in the time domain, whereas SINDy outputs a [[State-space Control|state space]] equation, making it particularly convenient to develop models such using advanced control techniques such as [[Model Predictive Control (MPC)]].
 
 ## 2. Low Data Resolution
-Another significant advantage of SINDy is the fact it can correctly identify system dynamics even with few data points, a significant advantage when compared to NN-based identification techniques. 
+Another significant advantage of SINDy is that it can correctly identify system dynamics even with a small dataset, a significant advantage when compared to NN-based identification techniques. 
 
 ## 3. Enforcing Physics
+SINDy has the capability to pre-embed physical 
 
 ## 4. Handling Nonlinearity
 Autoregressive models such as ARX, ARMAX etc. assume that the modelled system is *linear*. 
