@@ -1,1 +1,1 @@
-A subset of [[Machine Learning]], and [[Signal Processing]]. 
+The intersect between [[Machine Learning]], and [[Signal Processing]], machine vision uses algorithms to extract features from 2D images and videos.  
