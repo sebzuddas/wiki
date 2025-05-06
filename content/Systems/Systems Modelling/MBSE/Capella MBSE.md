@@ -3,11 +3,13 @@ aliases:
   - Capella
   - MBSE
 ---
-Capella is an MBSE tool that assists the user in going through the whole [[Model Based Systems Engineering (MBSE)]] process. 
+Capella is an MBSE tool that assists the user in going through the whole [[Model Based Systems Engineering (MBSE)]] process. The advantage of Capella is that it ensures chains throughout the various scales - from the high level problem to the logic that solves a minute sub-problem. 
 
+
+Here is the [Reference Manual](https://mbse-capella.org/resources/arcadia-reference/html/output/ARCADIA/) for Capella
 # Innovation With Capella Course
 ## Why Capella?
-Capella helps you identify opportunities to innovate. Sustained innovation is the goal, and Capella helps that happen. It does this by employing the ARCitecture Analysis & Design Integrated Approach (ARCADIA) method. ARCADIA helps you understand the problem, and define what parts of the problem you need to address. In helping define the problem, communication of the problem becomes easier to other parts of an organisation, including non experts. 
+Capella helps you identify opportunities to innovate. Sustained innovation is the goal, and Capella helps that happen. It does this by employing the ARChitecture Analysis & Design Integrated Approach (ARCADIA) method. ARCADIA helps you understand the problem, and define what parts of the problem you need to address. In helping define the problem, communication of the problem becomes easier to other parts of an organisation, including non experts. 
 
 ## Key Features
 ### Automated Documentation
@@ -28,12 +30,13 @@ It is normal to create a variety of diagrams, each outlining a specific function
 
 Online Tutorials:
 https://iexcelarc.com/operational-analysis-step-by-step/
-https://iexcelarc.com/operational-analysis-step-by-step/
-gettingdesignright.com/gdr-educate/capella_tutorial_v6_0
+https://gettingdesignright.com/GDR-Educate/Capella_Tutorial_v6_0/
 
 ### MBSE Relationships
 
 ### Extends and Includes
+
+
 **Extends**:
 1. Extends the Functionality of...
 	1. Child to Parent
@@ -46,6 +49,9 @@ gettingdesignright.com/gdr-educate/capella_tutorial_v6_0
 1. Includes the functionality of...
 	1. Parent to Child
 
+SITUATION: *if you need to drive to somewhere close*:
+you *extend* the functionality to fill up on petrol
+you *include* the functionality to put your key in the ignition   
 
 ## Operational Analysis
 Operational analysis will help you understand the problem you wish to solve by modelling the problem. The boundary for what is included at this phase is not strictly clear, but it is important that it is more general than what is used on the system analysis level. This is because **all elements on a given level need to be realised in a subsequent level**. Operational analysis being the top level implies that all entities, capabilities and activities need to be general enough to be further refined at the next level. It is also important **NOT to mention or architect a solution** for the given problem. 
@@ -53,8 +59,10 @@ Operational analysis will help you understand the problem you wish to solve by m
 ### Operational Entities (OEBD)
 Operational entities provide a high-level representation of the different entities that the system will use in its operation. An entity that cannot be reduced further than a human being is referred to as an 'actor', and an entity that a human being interacts with (eg an organisation or a toy or a computer) is simply an operational entity. 
 
-### Operational Capability
+### Operational Capability (OCB)
 An Operational **Capability** blank diagram depicts the *capabilities* the users expect. These are analogous to high-level system requirements. They should be solution agnostic. In this, Capella depicts Actors and Entities through a modelling notation. Capella also depicts Operational Capabilities in a modelling notation. 
+
+
 
 ### Operational Activity
 
@@ -95,6 +103,18 @@ In the system analysis phase, requirements are formalised via the following work
 
 Operational analysis is intentionally solution agnostic. System analysis begins to outline the structure of the solution, by translating operational requirements into system requirements. In the system analysis phase, consider the system, its environment, its boundaries, its interactions with the environment, and what it does. We **do not describe how it does what it does**, as that is for the subsequent phase, the [[#Logical Architecture|logical architecture]] phase. 
 
+```mermaid 
+flowchart LR 
+	
+	A(Define or Import Actors)
+	AA(Define or import missions and capabilities)
+	B(Assign functions to actors in System Architectures using different scenarios)
+	C(Create scenarios and match to missions and capabilities)
+	 A --> B
+	 AA --> B
+	 B --> C
+
+```
 
 ### Contextual System Actors
 Capella has the capacity to create *system* actors based on the previously made *operational* actors. These can all typically be ported over using the embedded 'contextually create system actors' tool. 
@@ -110,7 +130,17 @@ Import missions and capabilities. Define clearly few missions, and relate them t
 
 ### Functions & Functional Exchanges
 
+*What is a functional exchange*?
+A functional chain describes the usage of a system in a given context. A logical organisation of functions and functional exchanges lead to the fulfillment of a capability.  
+
+https://mbse-capella.org/resources/arcadia-reference/html/output/ARCADIA/69b670d6586c4a63a3e8924930f76dc6.html
+
+
+https://github.com/eclipse-capella/capella/blob/master/doc/plugins/org.polarsys.capella.ui.doc/html/05.%20Diagram%20Management/5.5.%20Creation%20of%20Functional%20Chains%20and%20Physical%20Paths.mediawiki
+
 The system architecture diagram is useful for defining functions and functional exchanges. This uses the **System Architecture Blank Diagram** as with the [[#Operational Architecture]] phase. **Create swimlanes**, and place the system in the centre, where the **user is on the left**, and any **external entities are on the right**. Import the functions outlined in the previous phase by selecting `allocated functions`. Each diagram represents a scenario, and therefore this process also warrants multiple diagrams. 
 
 This is the phase where **functional requirements** are outlined. Remember that system analysis is not the phase where we define **how the solution works**. As such, do your best to think abstractly and do not be too specific, as to leave design room to truly meet the requirements. 
+
 ## Logical Architecture
+
