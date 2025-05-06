@@ -21,8 +21,10 @@ Multi-rate Systems are systems where the sample rate for different components ar
 ## ARMAX
 
 ## NARMAX
-Non-linear Auto Regressive Moving Average with Exogenous Input. Attaining a NARMAX model requires the following steps:
 
+^088a7d
+
+Non-linear Auto Regressive Moving Average with Exogenous Input. Attaining a NARMAX model requires the following steps:
 
 - Dynamical tests and collecting data;
 - Choice of mathematical representation;
