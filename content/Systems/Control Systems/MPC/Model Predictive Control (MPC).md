@@ -58,7 +58,7 @@ $$
 \end{align*}
 $$
 
-### Key Additions with Dual-model MPC
+### Key Additions with Dual-mode MPC
 - **Terminal Cost** $\|x_{k+N} - x_{\text{ref}}\|_P^2$ ​
     - $P$ is chosen as the **solution to the discrete-time algebraic Riccati equation (DARE)** for the stabilising feedback controller $u=Kx$.
     - This approximates the infinite-horizon cost-to-go if you were to use $u=Kx$ after the horizon ends.
