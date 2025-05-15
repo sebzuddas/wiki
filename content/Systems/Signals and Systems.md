@@ -3,7 +3,7 @@
 
 
 -----
-# Common Functions
+# Common Input Functions
 
 ## Impulse Function
 
