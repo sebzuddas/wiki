@@ -23,11 +23,5 @@ Enterprise flexibility - creating options (also strategy?)
 Flexibility as a hedge against the environment.
 Flexibility as the capacity to adapt. 
 
-
-![[Pasted image 20240418095137.png]]
-
-
-
-
 [Flexibility for SoS](https://www.researchgate.net/publication/285624421_Flexibility_of_System_of_Systems/link/579b4ec708ae802facba4f44/download?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19)
 
