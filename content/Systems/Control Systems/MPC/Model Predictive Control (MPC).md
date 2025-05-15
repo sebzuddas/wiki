@@ -69,7 +69,18 @@ $$
     - Not part of the optimisation, but used in the **theoretical analysis**.
     - Ensures that once the system reaches $\mathcal{X}_f$​, it can be safely stabilized indefinitely.
 
+# Tuning an MPC
 
+When developing an MPC, there are three key tuning parameters:
+1. The prediction horizon: $N$
+2. The state cost matrix: $Q$ 
+3. The input cost matrix: $R$
+
+Assuming no modelling or constraint errors, these three parameters are what need to be tuned to ensure the controller effectively controls the system. 
+
+First let's talk about $N$, the prediction horizon. This is how far the controller will 'look into the future'. When tuning an MPC you should also have context on the time-step, since MPCs are typically implemented in discrete time. Consider what your system is, what the control rate is, and whether how far the system should look into the future. $N$ has a sweet spot - too far into the future, or to little into the future, and the controller leads to instability. The $N$ in between those values leads to stability. $N$ is often easier to find than the cost matrices, since it is only one variable. 
+
+$Q$ and $R$ should be chosen as [[Matrix Characteristics#Definition of a Positive Definite Matrix|positive definite]] matrices. They are penalty matrices, the *higher you chose their elements, the harder the controller will punish that variable*. For example, a high $q_{1,1}$ will make the controller focus on **reducing the error** on $x_1$. On the other hand, a high $r_{1,1}$ will make the controller use the $u_1$ input less. 
 
 [[Moving Horizon Estimation (MHE)]]
 

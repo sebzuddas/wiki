@@ -8,3 +8,11 @@ tags:
   - system
   - complexity
 ---
+# What is Graph Theory?
+
+# Why use Graph Theory?
+
+# Core Ideas
+
+## Adjacency Matrix
+
