@@ -14,5 +14,7 @@ tags:
 
 # Core Ideas
 
+## Edges & Vertices
+
 ## Adjacency Matrix
 
