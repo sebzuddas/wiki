@@ -126,3 +126,6 @@ D = \begin{pmatrix} (\color{red}{1} + \color{lightblue}{0} + \color{green}{-3}) 
 ## Matrix Inverse
 The inverse of a given matrix $A$ exists if and only if $A \in \mathbb{R}^{n\times n}$ (in other words square) and if the leading diagonal is not 0.  
 
+
+
+

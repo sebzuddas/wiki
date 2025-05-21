@@ -15,3 +15,6 @@ aliases:
 - A symmetric matrix $Q$ is positive **semi -** definite $\iff Q>0 \ \forall$ eigenvalues $\lambda \ge0$
 - A symmetric matrix $Q$ is positive **semi -** definite $\iff Q>0 \ \forall$ leading principle minors $\ge 0$ 
 
+
+## Quadratic Form
+Is used to map functions in the following manner: $\mathbb{R}^{n} \rightarrow \mathbb{R}$. In other words it turns $n$-dimensional matrices and turns them into scalars. 
