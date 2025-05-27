@@ -16,7 +16,7 @@ Other agentic frameworks can work for simple, generic tasks but fall short for c
 # Basic Principles
 
 ## States
-States represent the current data available at any point in the workflow. It is a shared memory bank for all nodes in the graph. It is used to hold intermediate values as your graph executes node-by-node. 
+States represent the current data available at any point in the workflow. It is a shared memory bank for all nodes in the graph. It is used to hold intermediate values as your graph executes node-by-node. It is the first thing to define when constructing a graph in langgraph. 
 
 ## Nodes
 Nodes execute based on the instructions given to them when they are instantiated. 
