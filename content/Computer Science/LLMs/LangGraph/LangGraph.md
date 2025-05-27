@@ -11,4 +11,3 @@ LangGraph is an orchestration framework for complex agentic systems and is more 
 
 # Why use LangGraph?
 Other agentic frameworks can work for simple, generic tasks but fall short for complex tasks bespoke to a company’s needs. LangGraph provides a more expressive framework to handle companies’ unique tasks without restricting users to a single black-box cognitive architecture.
-
