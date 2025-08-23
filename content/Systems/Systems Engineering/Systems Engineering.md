@@ -13,6 +13,7 @@ tags:
 Systems engineering is the discipline that brings together multiple engineering fields in order to deliver complex engineering projects and products. It is an interdisciplinary field that intersects technology and management. 
 
 # Why do we need Systems Engineering
+Systems engineering is necessary for engineered systems that combine software and hardware. 
 
 # How do I Engineer Systems
 There are two notable approaches to following systems engineering processes, notably [[#Document-based Systems Engineering]] and [[#Model Based Systems Engineering (MBSE)]]. When implementing these approaches, the process typically follows a specific [[#Development Models|development model]]. **There is no one correct way to do systems engineering**, since each project/product has its own unique needs. Delivering 100 trains is different to delivering a robust telecommunication software. Software developers may initially jump to using agile, 
