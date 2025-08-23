@@ -5,7 +5,7 @@ aliases:
 ---
 Here is the [Reference Manual](https://mbse-capella.org/resources/arcadia-reference/html/output/ARCADIA/) for Capella
 # What is Capella
-Capella is an MBSE tool that assists the user in going through the whole [[Model Based Systems Engineering (MBSE)]] process. The advantage of Capella is that it ensures chains throughout the various scales - from the high level problem to the logic that solves a minute sub-problem. 
+Capella is an MBSE tool that assists the user in going through the whole [[Model Based Systems Engineering (MBSE)]] process. The advantage of Capella is that it requires links throughout the various scales - from the high level problem to the logic that solves a minute sub-problem. In this way, Capella gives visibility on how each small-scale component or logic maps to solving the overarching problem. 
 
 # Why Capella?
 Capella helps you identify opportunities to innovate. Sustained innovation is the goal, and Capella helps that happen. It does this by employing the ARChitecture Analysis & Design Integrated Approach (ARCADIA) method. ARCADIA helps you understand the problem, and define what parts of the problem you need to address. In helping define the problem, communication of the problem becomes easier to other parts of an organisation, including non experts. 

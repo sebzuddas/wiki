@@ -44,15 +44,17 @@ Disclaimer, [NASA's systems engineering handbook](https://www.nasa.gov/wp-conten
 The concept of operations is a document that outlines the functionality and interactions of the system at a high-level. It is meant to be a point of reference for teams to then delve further into technical details. Find a template [[1. Concept of Operations|here]]. 
 
 ## 2. Requirements and Architecture
-System requirements are define the specifics of how a system should operate. Requirements should be detailed enough for engineers of different disciplines to create technical design documentation based from. There are known approaches to writing good system requirements, which you can find [here](https://www.nasa.gov/reference/appendix-c-how-to-write-a-good-requirement/). You can find a requirements template [[2. System Requirements|here]]. 
+System requirements are define the specifics of how a system should operate. Requirements should be detailed enough for engineers of different disciplines to create technical design documentation based from. There are known approaches to writing good system requirements, which you can find [here](https://www.nasa.gov/reference/appendix-c-how-to-write-a-good-requirement/). Often, engineered systems need to comply with international standards, the most ubiquitous being ISO9001. Depending on the system, it is likely many more standards should be adhered to, including safety, quality and system uptime standards. 
 
-High-level system architectures are a way to help understand how the system is structured, typically through diagrams. There is a conceptual overlap with [[Model Based Systems Engineering (MBSE)|MBSE]] approaches in this phase. 
+High-level system architectures are a way to help understand how the system is structured, typically through diagrams. There are different system modelling languages available, such as [SysML](https://sysml.org/) and [UML](https://www.omg.org/uml/). There is a conceptual overlap with [[Model Based Systems Engineering (MBSE)|MBSE]] approaches in this phase. 
+
+You can find a requirements template [[2. System Requirements|here]]. 
 
 ## 3. Detailed Design
-The design phase is engineering lead. Specialist teams will use system requirements and system architectures and design their solutions against it. 
+The design phase is engineering lead. Specialist teams will use system requirements and architectures and design their solutions against it. 
 
 ## 4. Implementation
-
+During the implementation phase, the system is being built. Many stakeholders will look to design documents, architectures, requirements to ensure they are building to specification. 
 
 ## 5. Validation and Verification
 **Validation** is defined as: the assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. **In other words** - does the system work as intended based on what the user asked for? "Are you building the right thing?"
