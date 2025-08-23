@@ -50,9 +50,14 @@ The concept of operations is a document that outlines the functionality and inte
 ## 4. Implementation
 
 
-## Validation and Verification
-### Validation
-Validation is 
+## 5. Validation and Verification
+**Validation** is defined as: the assurance that a product, service, or system meets the needs of the customer and other identified stakeholders. It often involves acceptance and suitability with external customers. **In other words** - does the system work as intended based on what the user asked for? "Are you building the right thing?"
+
+**Verification** is defined as: the evaluation of whether or not a product, service, or system complies with a regulation, requirement, specification, or imposed condition. It is often an internal process. **In other words** - is the built system in line with requirements (and regulations)? "Are you building it right?"
+
+## 6. Operation and Maintenance
+
+
 
 ---
 # [[Model Based Systems Engineering (MBSE)]]
