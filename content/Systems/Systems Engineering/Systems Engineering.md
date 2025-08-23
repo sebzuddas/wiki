@@ -4,13 +4,13 @@ aliases:
   - Systems engineering
   - systems engineering
 tags:
-  - career
   - complexity
   - engineering
   - system
+  - systems
 ---
 # What is Systems Engineering
-Systems engineering is the discipline that brings together multiple engineering fields in order to deliver complex engineering projects and products. It is an interdisciplinary field that intersects technology and management, 
+Systems engineering is the discipline that brings together multiple engineering fields in order to deliver complex engineering projects and products. It is an interdisciplinary field that intersects technology and management. 
 
 # Why do we need Systems Engineering
 
@@ -36,9 +36,18 @@ There are two notable approaches to following systems engineering processes, not
 
 ---
 # Document-based Systems Engineering
+Disclaimer, [NASA's systems engineering](https://www.nasa.gov/reference/systems-engineering-handbook/) handbook is the go-to reference for document-based systems engineering. Similarly, ESA has [useful documentation](https://ecss.nl/standard/ecss-e-st-10c-rev-1-system-engineering-general-requirements-15-february-2017/). The intention of this section is to simplify these large documents and have some 'ready-to-go' templates. Markdown is the chosen format since it encourages *writing* as opposed to *document design*. You can then use a [markdown to pdf converter](https://www.markdowntopdf.com/), or simply copy and paste into your chosen word processor. 
 
 ## 1. Concept of Operations (ConOps)
+The concept of operations is a document that outlines the functionality and interactions of the system at a high-level. It is meant to be a point of reference for teams to then delve further into technical details. Find a template [[1. Concept of Operations|here]]. 
 
+## 2. Requirements and Architecture
+
+
+## 3. Detailed Design
+
+
+## 4. Implementation
 
 
 ## Validation and Verification
