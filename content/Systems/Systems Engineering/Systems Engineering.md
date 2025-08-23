@@ -48,10 +48,8 @@ System requirements are define the specifics of how a system should operate. Req
 
 High-level system architectures are a way to help understand how the system is structured, typically through diagrams. There is a conceptual overlap with [[Model Based Systems Engineering (MBSE)|MBSE]] approaches in this phase. 
 
-
-
 ## 3. Detailed Design
-
+The design phase is engineering lead. Specialist teams will use system requirements and system architectures and design their solutions against it. 
 
 ## 4. Implementation
 
