@@ -3,4 +3,3 @@ aliases:
   - MBSE
 ---
 
-# 1. 
