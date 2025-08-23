@@ -31,8 +31,9 @@ There are two notable approaches to following systems engineering processes, not
 
 ![agile development process](https://www.rosemet.com/wp-content/uploads/2024/07/WHATAR1.jpg)
 
+## Spiral Model
 
-
+![spiral model](https://e99wnqo63x9.exactdn.com/wp-content/uploads/2011/08/Boehm-Spiral-Model.jpg?strip=all&lossy=1&w=2560&ssl=1)
 
 ---
 # Document-based Systems Engineering
