@@ -7,7 +7,7 @@ aliases:
 ---
 # What is MPC?
 
-**Model Predictive Control** is a control strategy that uses a **dynamic model of the system** to **predict future behaviour** and **optimise control inputs** over a finite time horizon. It solves an **optimisation problem** at each control step to determine the best action, while explicitly handling **constraints** on inputs, states, and outputs.
+**Model Predictive Control** is a control strategy that uses a **dynamic model of the system** to **predict future behaviour** and **optimise control inputs** over a finite time horizon. It solves an **[[Optimisation|optimisation]] problem** at each control step to determine the best action, while explicitly handling **constraints** on inputs, states, and outputs.
 
 # Why use MPC?
 In control engineering, we’re often faced with the task of designing a controller that not only keeps the system stable but also ensures good performance under **physical and operational constraints**. Classical control strategies—like PID, pole placement, or even [[State-space Control|LQR]]—tend to struggle when the system becomes complex, multivariable, nonlinear, or subject to tight limits on inputs or states. That’s where **Model Predictive Control** comes in.

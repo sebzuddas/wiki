@@ -19,6 +19,11 @@ A system is an arrangement of component parts or elements that in combination ex
 
 # Modelling Systems from First Principles
 Modelling systems from first principles relies using ideas from [[Dynamic Systems]] as defined by fundamental scientific principles, known as first principles. 
+
+## Modelling Dynamics
+
+## State-space Modelling
+
 # Modelling Systems from Data
 This is known as [[System Identification]].
 

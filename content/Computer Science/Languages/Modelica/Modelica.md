@@ -6,6 +6,11 @@ aliases:
   - Open Modelica
   - Open modelica
   - openmodelica
+tags:
+  - system
+  - maths
+  - engineering
+  - DT
 ---
 [Eradity | Digital transformation that matters](https://www.eradity.com/) - Digital twins with system simulation underneath. 
 
