@@ -1,4 +1,10 @@
-The $\mathcal Z$-Transform plays the same role as the Laplace Transform in the discrete domain $z$.
+# What is the $\mathcal Z$ Transform?
+
+# Why use the $\mathcal Z$ Transform?
+
+# Explanation
+
+The $\mathcal Z$-Transform plays the same role as the [[Laplace Transform]] in the discrete domain $z$.
 
 $$ x[n]\overbrace{\implies}^{\mathcal Z}\mathcal X(z) $$
 
@@ -20,7 +26,7 @@ $$ \mathcal{X}(z)=x[0]z^{-0}+x[1]z^{-1}+...+x[n]z^{-n} $$
 
 All of the values of $z$ make the summation exist in a Region of Convergence (RoC).
 
-## Complex Variable $z$
+## The Complex Variable $z$
 
 $$ z=re^{j\omega}=r\cos(\omega)+j\sin(\omega) $$
 
@@ -101,8 +107,6 @@ $$ \mathcal X(z)={1\over 1-z^{-1}}={z\over z-1} $$
 
 As such we say that when $|z^{-1}|<1\implies|z|>1$
 
-i
-
 # Regions of Convergence (RoC)
 
 The region of convergence (RoC) is defined as the set of points in the complex plane $\mathbb{C}$ for which the $\mathcal Z$-Transform converges.
@@ -112,3 +116,8 @@ Consider the impulse response
 $$ \mathcal{X}(z)={1\over 1+0.6z^{-1}} $$
 
 For $\mathcal X(z)$ the region of convergence is given by $|z|>|0.6|$
+
+# BIBO Stability
+
+
+# Estimating Frequency Response of a Digital System
