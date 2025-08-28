@@ -2,7 +2,12 @@
 aliases:
   - Modelica water systems
   - Water systems Modelica
+tags:
+  - system
 ---
+# Modeling Fluid Systems
+
+# [[Modelica]] Tips
 When using tanks, it is important to define the number of ports. This can be done in the following way
 
 ```
