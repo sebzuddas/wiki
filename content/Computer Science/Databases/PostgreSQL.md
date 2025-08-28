@@ -2,8 +2,7 @@
 aliases:
   - postgres
 tags:
-  - DT
-  - Project
-  - database
+  - digital-twins
+  - data
 ---
 PostgreSQL is a type of [[Database]]

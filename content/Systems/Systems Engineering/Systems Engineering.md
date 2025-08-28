@@ -7,7 +7,6 @@ tags:
   - complexity
   - engineering
   - system
-  - systems
 ---
 # What is Systems Engineering
 Systems engineering is the discipline that brings together multiple engineering fields in order to deliver complex engineering projects and products. It is an interdisciplinary field that intersects technology and management. 

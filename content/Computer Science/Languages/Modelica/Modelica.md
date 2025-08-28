@@ -10,7 +10,7 @@ tags:
   - system
   - maths
   - engineering
-  - DT
+  - digital-twins
 ---
 [Eradity | Digital transformation that matters](https://www.eradity.com/) - Digital twins with system simulation underneath. 
 

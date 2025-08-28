@@ -1,8 +1,8 @@
 ---
 tags:
   - maths
-  - systems
   - engineering
+  - system
 aliases:
   - Signals and systems
   - signals and systems

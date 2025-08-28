@@ -6,6 +6,8 @@ aliases:
   - System Model
   - System Models
   - system models
+tags:
+  - maths
 ---
 # Models
 
