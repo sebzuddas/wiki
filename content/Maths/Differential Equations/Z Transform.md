@@ -56,3 +56,59 @@ $$ x(n)\overbrace{\iff}^{\mathcal Z}\mathcal X(z) $$
 2. Impulse
     
     $$ \delta(n)\overbrace{\iff}^{\mathcal Z} \sum_{n=-\infty}^{\infty}\delta(n)z^{-n}=z^{-0}=1 $$
+## Stability of a System in the $\mathcal Z$ Domain
+![z domain stability](https://www.researchgate.net/publication/271920007/figure/fig2/AS:368804275212289@1464941199326/Stable-and-unstable-regions-for-pole-locations-in-the-z-plane.png)
+# Poles and Zeros
+
+$$ G(z)={p_0\prod_{\ell=1}^M(1-\xi_{\ell}z^{-1})
+
+\over
+
+d_0\prod_{\ell=1}^N(1-\lambda_{\ell}z^{-1})} \\ \therefore \\ G(z)=z^{N-M}{ p_0\prod_{\ell=1}^M(z-\xi_{\ell})
+
+\over
+
+d_0\prod_{\ell=1}^N(z-\lambda_{\ell}) } $$
+
+### We define a _pole_ as:
+
+$z=\lambda_\ell \ ; \ G(z)\to \infty$
+
+### We define a _zero_ as:
+
+$z=\xi_\ell \ ; \ G(z)=0$
+
+Note that $G(z)$ has $M$ amount of finite _zeros_ and $N$ amount of finite _poles_.
+
+- $N>M \implies$additional $N-M$ _zeros_ at $z=0$ (origin)
+- $N<M \implies$additional $M-N$_poles_ at $z=0$ (origin)
+
+## Example Questions
+
+Given the sequence $x(n)=u(n)$ find the $\mathcal Z$-transform of $x(n)$:
+
+We start with the definition of the $\mathcal Z$-transform
+
+$$ \mathcal X(z)=\sum_{n=0}^{\infty}u(n)z^{-n}=1+z^{-1}+z^{-2}+\dots $$
+
+Using the MacLaurin series expansion we know that
+
+$$ 1+r+r^2+\dots={1\over 1-r} \ where \ |r|\lt1 $$
+
+As such, we implement the same logic to our signal $u(n)$ and say that
+
+$$ \mathcal X(z)={1\over 1-z^{-1}}={z\over z-1} $$
+
+As such we say that when $|z^{-1}|<1\implies|z|>1$
+
+i
+
+# Regions of Convergence (RoC)
+
+The region of convergence (RoC) is defined as the set of points in the complex plane $\mathbb{C}$ for which the $\mathcal Z$-Transform converges.
+
+Consider the impulse response
+
+$$ \mathcal{X}(z)={1\over 1+0.6z^{-1}} $$
+
+For $\mathcal X(z)$ the region of convergence is given by $|z|>|0.6|$
