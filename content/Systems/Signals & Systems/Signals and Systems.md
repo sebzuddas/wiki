@@ -1,3 +1,12 @@
+---
+tags:
+  - maths
+  - systems
+  - engineering
+aliases:
+  - Signals and systems
+  - signals and systems
+---
 
 # Introduction
 
