@@ -8,5 +8,7 @@ aliases:
 tags:
   - maths
   - system
+  - modeling
+  - complexity
 ---
 Dynamic Systems are typically represented by [[Ordinary Differential Equations (ODEs)]]

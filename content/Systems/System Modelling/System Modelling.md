@@ -8,6 +8,8 @@ aliases:
   - system models
 tags:
   - maths
+  - system
+  - modeling
 ---
 # Models
 

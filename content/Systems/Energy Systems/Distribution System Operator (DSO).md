@@ -1,3 +1,11 @@
+---
+aliases:
+  - DSO
+tags:
+  - energy
+  - enegineering
+---
+
 Distribution Network Operators (DNO's) are quickly evolving into Distribution System Operators (DSO's). This is because they are taking on new responsibilities based on innovations, whereby DNO's are transitioning from providing power from traditional power stations to more Distributed Energy Resources (DER's), such as wind, PV, Hydro etc.   
 
 This approach has an emphasis on flexibility. DSO's are expected to provide more power in a more flexible way, moving away from the previous paradigm of network structures based on a managing a few central power stations. This approach also depends on power being used more locally, by consumers closer to the generators. 

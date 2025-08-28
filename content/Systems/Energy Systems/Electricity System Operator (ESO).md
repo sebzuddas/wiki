@@ -5,6 +5,9 @@ aliases:
   - electricity system operator
   - Electricity system operator
   - Electricity System Operator
+tags:
+  - energy
+  - engineering
 ---
 An Electricity System Operator (ESO), also known as a Transmission System Operator (TSO) is an entity entrusted with transporting energy (natural gas or electricity) on a national level. In the UK, the ESO is the [National Grid](https://www.nationalgrideso.com/).
 

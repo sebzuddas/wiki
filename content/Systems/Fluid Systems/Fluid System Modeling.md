@@ -4,6 +4,8 @@ aliases:
   - Water systems Modelica
 tags:
   - system
+  - modeling
+  - engineering
 ---
 # Modeling Fluid Systems
 

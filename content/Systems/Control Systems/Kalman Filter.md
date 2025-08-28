@@ -3,6 +3,10 @@ aliases:
   - Kalman filter
   - Kalman filtering
   - Kalman filters
+tags:
+  - maths
+  - system
+  - modeling
 ---
 
 
