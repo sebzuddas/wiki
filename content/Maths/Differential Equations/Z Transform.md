@@ -1,3 +1,10 @@
+---
+aliases:
+  - z-transform
+tags:
+  - maths
+---
+
 # What is the $\mathcal Z$ Transform?
 
 # Why use the $\mathcal Z$ Transform?

@@ -7,6 +7,8 @@ aliases:
   - Differential equations
   - differential equation
   - Differential equation
+tags:
+  - maths
 ---
 
 # What are Differential Equations?

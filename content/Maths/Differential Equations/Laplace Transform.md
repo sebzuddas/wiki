@@ -1,6 +1,8 @@
 ---
 aliases:
   - Laplace
+tags:
+  - maths
 ---
 # What is the Laplace Transform?
 

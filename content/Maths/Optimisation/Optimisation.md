@@ -4,6 +4,9 @@ aliases:
   - optimisation
   - Optimization
   - optimization
+tags:
+  - maths
+  - engineering
 ---
 Optimisation looks at minimising defined objective function, which may be constrained or unconstrained. 
 

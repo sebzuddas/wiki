@@ -1,3 +1,11 @@
+---
+tags:
+  - maths
+aliases:
+  - fuzzy sets
+  - Fuzzy sets
+---
+
 # Terminology
 
 ### Old -> New Terminology
