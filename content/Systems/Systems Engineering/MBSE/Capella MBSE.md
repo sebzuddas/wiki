@@ -2,6 +2,9 @@
 aliases:
   - Capella
   - MBSE
+tags:
+  - enegineering
+  - system
 ---
 Here is the [Reference Manual](https://mbse-capella.org/resources/arcadia-reference/html/output/ARCADIA/) for Capella
 # What is Capella
