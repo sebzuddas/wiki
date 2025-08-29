@@ -5,7 +5,6 @@ aliases:
   - fuzzy sets
   - Fuzzy sets
 ---
-
 # Terminology
 
 ### Old -> New Terminology
@@ -15,7 +14,7 @@ aliases:
 - Mapping -> Universal Set
 
 
-A universal set refers to _all objects_ that one wishes to describe, eg. the universal set of room temperatures (low, temperate, high, very high,...).
+A universal  refers to _all objects_ that one wishes to describe, eg. the universal set of room temperatures (low, temperate, high, very high,...).
 
 Consider a set $A$ of which $A \subset X$, for $X$ is a universal set.
 
