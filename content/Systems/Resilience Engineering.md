@@ -1,3 +1,10 @@
+---
+tags:
+  - engineering
+  - system
+  - complexity
+---
+
 Based on the [[Theory of Resilience]]. More information from [System Resilience - SEboK](https://sebokwiki.org/wiki/System_Resilience). 
 
 Resilience is the capability of a system to proactively seek out, and enact when necessary, means to ensure the systems' capabilities are maintained in the face of disruption. 

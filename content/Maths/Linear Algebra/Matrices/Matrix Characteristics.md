@@ -3,6 +3,8 @@ title: Matrix Characteristics
 aliases:
   - Matrix characteristics
   - matrix characteristics
+tags:
+  - maths
 ---
 
 ## Definition of a Positive Definite Matrix

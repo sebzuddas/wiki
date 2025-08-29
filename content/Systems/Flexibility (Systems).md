@@ -1,3 +1,11 @@
+---
+aliases:
+  - Flexibility
+  - flexibility
+tags:
+  - system
+  - enegineering
+---
 
 Flexible system design means that a system can adequately respond to external changes, both internal and external, and does so in a time and cost effective manner. 
 

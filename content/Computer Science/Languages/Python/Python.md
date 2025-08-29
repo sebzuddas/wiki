@@ -1,7 +1,14 @@
+---
+aliases:
+  - python
+tags:
+  - programming
+---
+# What is Python
 python is a high-level general purpose programming language. As a language, it makes use of garbage collection and dynamic typing.
 
 # Libraries
-Python is best known for its libraries. 
+Python is best known for its vast range of libraries. 
 
 | Name                  | Obsidian Link                         |     |
 | --------------------- | ------------------------------------- | --- |

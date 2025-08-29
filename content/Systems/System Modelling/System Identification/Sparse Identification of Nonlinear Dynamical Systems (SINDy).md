@@ -1,6 +1,9 @@
 ---
 aliases:
   - SINDy
+tags:
+  - system
+  - maths
 ---
 
 # What is SINDy?
@@ -14,11 +17,11 @@ Although SINDy is only a method for conducting [[System Identification|system id
 ## 2. Low Data Resolution
 Another significant advantage of SINDy is that it can correctly identify system dynamics even with a small dataset, a significant advantage when compared to NN-based identification techniques. 
 
-## 3. Enforcing Physics
-SINDy has the capability to pre-embed physical 
+%% ## 3. Enforcing Physics
+SINDy has the capability to pre-embed physical  %%
 
-## 4. Handling Nonlinearity
-Autoregressive models such as ARX, ARMAX etc. assume that the modelled system is *linear*. 
+## 3. Handling Nonlinearity
+Autoregressive models such as ARX, ARMAX etc. assume that the modelled system is *linear*. The SINDy framework handles nonlinearity with ease compared to other system identification techniques. 
 
 # SINDy for Control (SINDYc)
 

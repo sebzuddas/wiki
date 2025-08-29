@@ -4,6 +4,13 @@ aliases:
   - matrices
   - Matrix
   - Matrices
+tags:
+  - control
+  - maths
+  - data
+  - engineering
+  - modeling
+  - system
 ---
 Typically denoted by a capital letter $X$, a matrix with $m$ rows and $n$ columns is defined as $X\in \mathbb R^{m \times n}$. 
 

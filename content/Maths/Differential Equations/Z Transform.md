@@ -46,11 +46,11 @@ where:
 
 For a system impulse response $h(n)$ its Z-transform is given by:
 
-$\mathcal H(z)=\sum_{n=-\infty}^{\infty}h(n)\cdot z^{-n}$
+$$\mathcal H(z)=\sum_{n=-\infty}^{\infty}h(n)\cdot z^{-n}$$
 
 Similarly, the Z-transform of a scaled delta function $a\delta(n)$ is given by:
 
-$\mathcal H(z)=\sum_{n=-\infty}^{\infty}a\cdot\delta(n)\cdot z^{-n}=a$
+$$\mathcal H(z)=\sum_{n=-\infty}^{\infty}a\cdot\delta(n)\cdot z^{-n}=a$$
 
 $$ x(n)\overbrace{\iff}^{\mathcal Z}\mathcal X(z) $$
 
@@ -85,11 +85,11 @@ d_0\prod_{\ell=1}^N(z-\lambda_{\ell}) } $$
 
 ### We define a _pole_ as:
 
-$z=\lambda_\ell \ ; \ G(z)\to \infty$
+$$z=\lambda_\ell \ ; \ G(z)\to \infty$$
 
 ### We define a _zero_ as:
 
-$z=\xi_\ell \ ; \ G(z)=0$
+$$z=\xi_\ell \ ; \ G(z)=0$$
 
 Note that $G(z)$ has $M$ amount of finite _zeros_ and $N$ amount of finite _poles_.
 

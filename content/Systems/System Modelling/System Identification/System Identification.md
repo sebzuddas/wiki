@@ -1,3 +1,15 @@
+---
+aliases:
+  - System identification
+  - system identification
+tags:
+  - data
+  - control
+  - enegineering
+  - modeling
+  - maths
+---
+
 The process of identifying [[Ordinary Differential Equations (ODEs)]] models from data. Used to then inform [[State-space Control]] or [[Model Predictive Control (MPC)]] schemas. All of these require a [[Dynamic Systems]] model, and when you can't model from first principles, System Identification provides a data-driven approach based on input and output data. 
 
 https://www.diva-portal.org/smash/get/diva2:277019/FULLTEXT02
