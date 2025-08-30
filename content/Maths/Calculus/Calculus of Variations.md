@@ -1,6 +1,6 @@
 ---
 aliases:
-  - calculus
+  - calculus of variations
 tags:
   - maths
 ---

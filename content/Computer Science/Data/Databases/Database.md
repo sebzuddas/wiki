@@ -8,4 +8,4 @@ tags:
   - programming
 ---
 # What is a Database?
-A database is used to store [[information]]. 
+A database is used to store [[Information Theory]]. 

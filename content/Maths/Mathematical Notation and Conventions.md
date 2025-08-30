@@ -1,3 +1,12 @@
+---
+aliases:
+  - Notation
+  - notation
+tags:
+  - maths
+  - modeling
+---
+
 # Common Notation Explanations
 | Symbol    | Explanation                                                  |
 | --------- | ------------------------------------------------------------ |

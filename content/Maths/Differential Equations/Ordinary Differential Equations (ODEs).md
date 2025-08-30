@@ -9,6 +9,10 @@ aliases:
   - Differential equation
 tags:
   - maths
+  - control
+  - modeling
+  - system
+  - engineering
 ---
 
 # What are Differential Equations?

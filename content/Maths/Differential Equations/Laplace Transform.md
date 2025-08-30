@@ -3,6 +3,8 @@ aliases:
   - Laplace
 tags:
   - maths
+  - modeling
+  - control
 ---
 # What is the Laplace Transform?
 

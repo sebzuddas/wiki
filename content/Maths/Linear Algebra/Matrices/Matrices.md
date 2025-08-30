@@ -18,7 +18,6 @@ Typically denoted by a capital letter $X$, a matrix with $m$ rows and $n$ column
 # Why do we need Matrices?
 
 
-
 # Intuition
 Although matrix can seem abstract, they have a real world context. In a simplistic explanation of matrices, we can think of the columns, $n$, as the inputs to the matrix, and the rows, $m$, as the outputs of the matrix. For example, let's take a simple $A\in \mathbb R^{2\times 2}$ matrix. This corresponds to a system with two inputs and two outputs. 
 $$
