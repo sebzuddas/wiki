@@ -8,4 +8,4 @@ tags:
   - modeling
 ---
 # What is a Resistor?
-
+A resistor is an electrical component that 
