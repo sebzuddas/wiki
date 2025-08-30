@@ -15,6 +15,8 @@ x\rightarrow \fbox{function()} \rightarrow f(x)
 $$
 Above, the input $x$ is passed into the function $function()$. The result of inputting $x$ into the function is $f(x)$. 
 
+<iframe src="https://www.desmos.com/calculator/j1thkiirwu?embed" width="500" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
+
 ## Formal Definition
 A function, formally, maps elements of one [[Sets|set]] to elements of another set. 
 
