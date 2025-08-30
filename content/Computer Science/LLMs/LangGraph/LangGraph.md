@@ -3,8 +3,7 @@ aliases:
   - Lang graph
   - lang graph
   - Langgraph
-tags:
-  - LLM
+tags: []
 ---
 # What is LangGraph?
 LangGraph is an orchestration framework for complex agentic systems and is more low-level and controllable than LangChain agents. On the other hand, LangChain provides a standard interface to interact with models and other components, useful for straight-forward chains and retrieval flows.
