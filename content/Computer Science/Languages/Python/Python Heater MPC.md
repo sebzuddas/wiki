@@ -1,6 +1,3 @@
-
-
-
 A heater [[Model Predictive Control (MPC)|MPC]] implemented using [[Python]].
 
 ```python

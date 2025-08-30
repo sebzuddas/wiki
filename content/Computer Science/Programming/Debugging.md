@@ -1,3 +1,11 @@
+---
+aliases:
+  - debugging
+tags:
+  - programming
+  - engineering
+---
+
 When using VScode, using the debugger prevents you from having to use print statements throughout your code. The debugger typically uses a `launch.json` file, which is set up as follows:
 
 ```json

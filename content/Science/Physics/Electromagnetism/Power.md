@@ -1,1 +1,9 @@
+---
+aliases:
+  - power
+tags:
+  - energy
+  - engineering
+---
+
 Power is the rate at which [[Energy]] is transformed, transferred or used over time. 

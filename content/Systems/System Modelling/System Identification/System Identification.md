@@ -5,7 +5,7 @@ aliases:
 tags:
   - data
   - control
-  - enegineering
+  - engineering
   - modeling
   - maths
 ---
