@@ -8,4 +8,7 @@ tags:
   - modeling
 ---
 # What is a Resistor?
-A resistor is an electrical component that 
+A resistor is an electrical component that is used to slow down the flow of [[current]] in a [[Circuits|circuit]]. 
+
+# Wikipedia
+[wiki](https://en.wikipedia.org/wiki/Resistor)
