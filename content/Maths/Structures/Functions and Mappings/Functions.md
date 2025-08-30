@@ -27,7 +27,7 @@ Functions can take many forms, since there are many real-world processes that ar
 
 #### Exponentials
 
-<iframe src="https://www.desmos.com/calculator/4vzfym1hcx?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+<iframe src="https://www.desmos.com/calculator/4vzfym1hcx?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=1000></iframe>
 
 ## Formal Definition
 A function, formally, maps elements of one [[Sets|set]] to elements of another set. 
