@@ -14,7 +14,7 @@ aliases:
 - Mapping -> Universal Set
 
 
-A universal  refers to _all objects_ that one wishes to describe, eg. the universal set of room temperatures (low, temperate, high, very high,...).
+A universal [[Sets|set]] refers to _all objects_ that one wishes to describe, eg. the universal set of room temperatures (low, temperate, high, very high,...).
 
 Consider a set $A$ of which $A \subset X$, for $X$ is a universal set.
 
