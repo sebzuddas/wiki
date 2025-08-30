@@ -13,9 +13,21 @@ A function is a mathematical operation that describes how a variable is altered,
 $$
 x\rightarrow \fbox{function()} \rightarrow f(x)
 $$
-Above, the input $x$ is passed into the function $function()$. The result of inputting $x$ into the function is $f(x)$. 
-
+Above, the input $x$ is passed into the function $function()$. The result of inputting $x$ into the function is the output $f(x)$. 
+### Visualisation
+When visualising the function $f(x) = x$ we see a line. This line tells us that for every time we input 1, we get 1 as an output. As we go along the number line on the horizontal axis, we go along the number line at the same rate on the horizontal axis. 
 <iframe src="https://www.desmos.com/calculator/j1thkiirwu?embed" width="500" height="250" style="border: 1px solid #ccc" frameborder=0></iframe>
+## Intuitions
+Functions can take many forms, since there are many real-world processes that are described by functions. 
+
+### Linear Functions
+
+<iframe src="https://www.desmos.com/calculator/mo305n5vx3?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+### Non-linear Functions
+
+#### Exponentials
+
+<iframe src="https://www.desmos.com/calculator/4vzfym1hcx?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 ## Formal Definition
 A function, formally, maps elements of one [[Sets|set]] to elements of another set. 
