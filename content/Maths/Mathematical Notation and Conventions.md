@@ -5,3 +5,7 @@
 |           |                                                              |
 
 # Conventions
+| Symbol                         | Explanation                                |
+| ------------------------------ | ------------------------------------------ |
+| $X \in \mathbb R^{m \times n}$ | A matrix $X$ with $m$ rows and $n$ columns |
+|                                |                                            |

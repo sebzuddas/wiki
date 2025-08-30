@@ -8,7 +8,11 @@ tags:
   - maths
   - engineering
 ---
-Optimisation looks at minimising defined objective function, which may be constrained or unconstrained. 
+# What is Optimisation
+Optimisation looks at minimising defined objective function, which may be constrained or unconstrained. It is a word often thrown around loosely, with many people trying to optimise things in their lives. 
+
+# Why do we need Optimisation?
+
 
 ---
 # Objective Functions

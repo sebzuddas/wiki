@@ -2,13 +2,16 @@
 tags:
   - maths
 ---
+# What is a Loss Function?
 
 Loss functions are a subset of [[Optimisation#^a835ed|Objective functions]]
 
+# Why do we need Loss Functions?
 
-There are a number of ways to minimise functions. We start by looking at how to minimise a bivariate function analytically.
 
 # Minimise $f(x)$ analytically:
+There are a number of ways to minimise functions. We start by looking at how to minimise a bivariate function analytically.
+
 
 $$ f(x_1, x_2) = 5x_1^2+x_2^2-2x_1x_2-14x_1 +2x_2+19 $$
 
