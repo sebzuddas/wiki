@@ -7,7 +7,7 @@ tags:
   - data
 ---
 
-The Hessian [[Matrices|Matrix]] is a powerful tool used in [[optimisation]] and calculus. It is a square matrix of second-order partial derivatives of a scalar-valued function and serves as a measure of the local curvature of a surface of a higher-dimensional function. **The Hessian Matrix can be used to compute the critical points of a function and to determine the local maxima and minima of the function**. It can also be used to identify saddle points that neither represent maxima nor minima. The Hessian Matrix is a powerful tool that can be used in many applications.
+The Hessian [[Matrices|Matrix]] is a powerful tool used in [[Optimisation]] and calculus. It is a square matrix of second-order partial derivatives of a scalar-valued function and serves as a measure of the local curvature of a surface of a higher-dimensional function. **The Hessian Matrix can be used to compute the critical points of a function and to determine the local maxima and minima of the function**. It can also be used to identify saddle points that neither represent maxima nor minima. The Hessian Matrix is a powerful tool that can be used in many applications.
 
 $$H(f) = [H_{ij}(f)]\text{ where }H_{ij}(f) = \frac{\partial^2 f}{\partial x_i \partial x_j}$$
 
