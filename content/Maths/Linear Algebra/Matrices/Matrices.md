@@ -130,9 +130,31 @@ D = \begin{pmatrix} (\color{red}{1} + \color{lightblue}{0} + \color{green}{-3}) 
 
 
 
+
+
+# Matrix Algebra
+
 ## Matrix Inverse
 The inverse of a given matrix $A$ exists if and only if $A \in \mathbb{R}^{n\times n}$ (in other words square) and if the leading diagonal is not 0.  
 
+Broadly, the steps for finding the inverse are as follows for a matrix higher than $\mathbb{R}^{m\times m}$:
 
+$$ Y= \Phi \beta \\ \therefore \\ \beta=\Phi^{-1}Y $$
+
+As such, the inverse is found by:
+
+$$ A^{-1}=\frac{1}{|A|} \cdot C_A^T $$
+
+For a $\mathbb R^{2\times 2}$ matrix there is a shortcut:
+
+ $$ \begin{pmatrix} a&b\\ c&d \end{pmatrix}^{-1}
+\frac{1}{ad-bc} \begin{pmatrix} d&-b\\ -c&a \end{pmatrix} $$
+## Pseudoinverse
+
+^8a05b2
+
+- Used when we need to inverse a matrix but that matrix isn't square, ie $\mathbb R^{m\times n}$
+
+$$ \Phi_p^{-1}=(\Phi^{T}\Phi)^{-1}\cdot \Phi^{T} $$
 
 
