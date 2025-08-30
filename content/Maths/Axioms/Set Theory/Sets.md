@@ -11,3 +11,11 @@ A set is a collection of objects. Any group of related, but unordered objects ca
 
 
 # Why do we need Sets?
+
+
+# Common Sets
+
+## Real Numbers $\mathbb R$
+
+^b8ba0f
+
