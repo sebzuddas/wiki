@@ -6,7 +6,7 @@ tags:
 
 Loss functions are a subset of [[Optimisation#^a835ed|Objective functions]]
 
-# Why do we need Loss Functions?
+# Why do we need Loss Functions
 
 
 # Minimise $f(x)$ analytically:
