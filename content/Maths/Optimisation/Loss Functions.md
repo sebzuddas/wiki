@@ -18,9 +18,9 @@ Firstly, we define what it means for a point to be optimal. We know that an opti
 
 To check for this condition, we perform partial differentiation as follows:
 
-${\partial\over \partial x_1}= 10x_1-2x_2-14 = \blue0$
+${\partial\over \partial x_1}= 10x_1-2x_2-14 = 0$
 
-${\partial\over \partial x_2}= 2x_2-2x_1+2 = \blue0$
+${\partial\over \partial x_2}= 2x_2-2x_1+2 = 0$
 
 Through using simultaneous equations, we find the values of $(x_1, x_2) = [{3\over 2}, {1\over2}]$.
 
@@ -31,9 +31,8 @@ Through using simultaneous equations, we find the values of $(x_1, x_2) = [{3\ov
 
 ### Step 2: 2nd order conditions
 
-We now look for second order conditions, implying we need to find the values inside the Hessian matrix of the function, ie $\nabla^2 f(x)=
-
-\begin{pmatrix} {\partial^2\over \partial x_1^2}&{\partial^2\over \partial x_1x_2} \\ {\partial^2\over \partial x_1x_2}&{\partial^2\over \partial x_2^2} \end{pmatrix}$
+We now look for second order conditions, implying we need to find the values inside the Hessian matrix of the function:
+$$\nabla^2 f(x)=\begin{pmatrix} {\partial^2\over \partial x_1^2}&{\partial^2\over \partial x_1x_2} \\ {\partial^2\over \partial x_1x_2}&{\partial^2\over \partial x_2^2} \end{pmatrix}$$
 
 - Hint:
     
@@ -42,9 +41,15 @@ We now look for second order conditions, implying we need to find the values ins
     As such we get $\nabla^2f(x)=\begin{pmatrix} 10&-2 \\ -2&2 \end{pmatrix}$
     
 
-Now that we’ve formed the Hessian matrix, $\nabla^2 f(x)=
+Now that we’ve formed the Hessian matrix, 
 
-\begin{pmatrix} 10&-2 \\ -2&2 \end{pmatrix}$ we check to see whether the first two principle minors, $\Delta_1, \Delta_2 >0$.
+$$\nabla^2 f(x)=
+
+\begin{pmatrix} 10&-2 \\ -2&2 \end{pmatrix}$$ 
+
+we check to see whether the first two principle minors, 
+
+$$\Delta_1, \Delta_2 >0$$
 
 - Hint:
     
@@ -70,7 +75,7 @@ Then find the following properties:
 
 ## Moving Direction
 
-$d^{(0)}= \begin{bmatrix} -1 \\ 1 \end{bmatrix}$
+$$d^{(0)}= \begin{bmatrix} -1 \\ 1 \end{bmatrix}$$
 
 - Hint:
     
@@ -81,18 +86,24 @@ $d^{(0)}= \begin{bmatrix} -1 \\ 1 \end{bmatrix}$
 
 ## Step Size
 
-Put $\alpha$ into a function $g(\alpha)$, minimise the function such that $a^{(0)}=\min_\alpha g(\alpha) = {1\over 8}$
+Put $\alpha$ into a function $g(\alpha)$, minimise the function such that 
+$$
+a^{(0)} = \min_\alpha g(\alpha) = \tfrac{1}{8}
+$$
 
 - Hint:
-    
-    # $x^{(1)}= \begin{bmatrix} x_1^{(1)} \\ x_2^{(1)} \end{bmatrix}
-    
-    # \begin{bmatrix} 0 \\ 0 \end{bmatrix}
-    
-    # \alpha \begin{bmatrix} -1 \\1 \end{bmatrix}
-    
-    \begin{bmatrix} -\alpha \\ \alpha
-    
-    \end{bmatrix}$
-    
-    We then create a function $g$ wrt $\alpha$ giving $g(\alpha) = f(x^{(0)}+\alpha d^{(0)})=f(x^{(1)})=f(x_1^{(1)},x_2^{(1)})=f(-\alpha, \alpha) = 4\alpha^2-2\alpha+1$
+
+$$
+x^{(1)} = \begin{bmatrix} x_1^{(1)} \\ x_2^{(1)} \end{bmatrix}
+= \begin{bmatrix} 0 \\ 0 \end{bmatrix}
++ \alpha \begin{bmatrix} -1 \\ 1 \end{bmatrix}
+= \begin{bmatrix} -\alpha \\ \alpha \end{bmatrix}
+$$
+
+We then create a function $g$ wrt $\alpha$, giving
+
+$$
+g(\alpha) = f(x^{(0)}+\alpha d^{(0)}) = f(x^{(1)}) 
+= f(x_1^{(1)}, x_2^{(1)}) = f(-\alpha, \alpha) 
+= 4\alpha^2 - 2\alpha + 1
+$$
