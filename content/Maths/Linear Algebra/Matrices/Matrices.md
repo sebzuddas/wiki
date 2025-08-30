@@ -91,19 +91,38 @@ Here, each row in $A$ is multiplied element-by-element with the single column in
 Given:
 
 $$
-A = \begin{pmatrix} \color{red}{1} & \color{lightblue}{2} & \color{green}{3} \\ \color{red}{4} & \color{lightblue}{5} & \color{green}{6} \\ \color{red}{7} & \color{lightblue}{8} & \color{green}{9} \\ \end{pmatrix}, \quad B = \begin{pmatrix} \color{red}{1} & \color{orange}{0} \\ \color{lightblue}{0} & \color{pink}{1} \\ \color{green}{-1} & \color{brown}{0} \\ \end{pmatrix}
+A = \begin{pmatrix} \color{red}{1} & \color{blue}{2} & \color{green}{3} \\ 
+\color{red}{4} & \color{blue}{5} & \color{green}{6} \\ 
+\color{red}{7} & \color{blue}{8} & \color{green}{9} 
+\end{pmatrix}, \quad 
+B = \begin{pmatrix} \color{red}{1} & \color{orange}{0} \\ 
+\color{blue}{0} & \color{pink}{1} \\ 
+\color{green}{-1} & \color{brown}{0} 
+\end{pmatrix}
 $$
 
 We calculate $A \times B=D$ by multiplying each row of $A$ by each column of $B$:
 
 $$
-D = \begin{pmatrix} (\color{red}{1}\times \color{red}{1} + \color{lightblue}{2}\times \color{lightblue}{0} + \color{green}{3}\times \color{green}{-1}) & (\color{red}{1}\times \color{orange}{0} + \color{lightblue}{2}\times \color{pink}{1} + \color{green}{3}\times \color{brown}{0}) \\ (\color{red}{4}\times \color{red}{1} + \color{lightblue}{5}\times \color{lightblue}{0} + \color{green}{6}\times \color{green}{-1}) & (\color{red}{4}\times \color{orange}{0} + \color{lightblue}{5}\times \color{pink}{1} + \color{green}{6}\times \color{brown}{0}) \\ (\color{red}{7}\times \color{red}{1} + \color{lightblue}{8}\times \color{lightblue}{0} + \color{green}{9}\times \color{green}{-1}) & (\color{red}{7}\times \color{orange}{0} + \color{lightblue}{8}\times \color{pink}{1} + \color{green}{9}\times \color{brown}{0}) \end{pmatrix}
-$$​​
+D = \begin{pmatrix} 
+(\color{red}{1}\times \color{red}{1} + \color{blue}{2}\times \color{blue}{0} + \color{green}{3}\times \color{green}{-1}) & 
+(\color{red}{1}\times \color{orange}{0} + \color{blue}{2}\times \color{pink}{1} + \color{green}{3}\times \color{brown}{0}) \\ 
+(\color{red}{4}\times \color{red}{1} + \color{blue}{5}\times \color{blue}{0} + \color{green}{6}\times \color{green}{-1}) & 
+(\color{red}{4}\times \color{orange}{0} + \color{blue}{5}\times \color{pink}{1} + \color{green}{6}\times \color{brown}{0}) \\ 
+(\color{red}{7}\times \color{red}{1} + \color{blue}{8}\times \color{blue}{0} + \color{green}{9}\times \color{green}{-1}) & 
+(\color{red}{7}\times \color{orange}{0} + \color{blue}{8}\times \color{pink}{1} + \color{green}{9}\times \color{brown}{0}) 
+\end{pmatrix}
+$$
 
 This simplifies to:
 
 $$
-D = \begin{pmatrix} (\color{red}{1} + \color{lightblue}{0} + \color{green}{-3}) & (\color{red}{0} + \color{lightblue}{2} + \color{green}{0}) \\ (\color{red}{4} + \color{lightblue}{0} + \color{green}{-6}) & (\color{red}{0} + \color{lightblue}{5} + \color{green}{0}) \\ (\color{red}{7} + \color{lightblue}{0} + \color{green}{-9}) & (\color{red}{0} + \color{lightblue}{8} + \color{green}{0}) \end{pmatrix} = \begin{pmatrix} -2 & 2 \\ -2 & 5 \\ -2 & 8 \end{pmatrix}​​
+D = \begin{pmatrix} 
+(\color{red}{1} + \color{blue}{0} + \color{green}{-3}) & (\color{red}{0} + \color{blue}{2} + \color{green}{0}) \\ 
+(\color{red}{4} + \color{blue}{0} + \color{green}{-6}) & (\color{red}{0} + \color{blue}{5} + \color{green}{0}) \\ 
+(\color{red}{7} + \color{blue}{0} + \color{green}{-9}) & (\color{red}{0} + \color{blue}{8} + \color{green}{0}) 
+\end{pmatrix} 
+= \begin{pmatrix} -2 & 2 \\ -2 & 5 \\ -2 & 8 \end{pmatrix}
 $$
 
 ---
@@ -113,20 +132,42 @@ $$
 Given:
 
 $$
-A = \begin{pmatrix} \color{red}{1} & \color{lightblue}{2} & \color{green}{3} \\ \color{red}{4} & \color{lightblue}{5} & \color{green}{6} \\ \color{red}{7} & \color{lightblue}{8} & \color{green}{9} \\ \end{pmatrix}, \quad B = \begin{pmatrix} \color{red}{1} & \color{orange}{0} & \color{pink}{1} \\ \color{lightblue}{0} & \color{brown}{1} & \color{pink}{0} \\ \color{green}{-1} & \color{cyan}{0} & \color{lime}{1} \\ \end{pmatrix}
+A = \begin{pmatrix} \color{red}{1} & \color{blue}{2} & \color{green}{3} \\ 
+\color{red}{4} & \color{blue}{5} & \color{green}{6} \\ 
+\color{red}{7} & \color{blue}{8} & \color{green}{9} 
+\end{pmatrix}, \quad 
+B = \begin{pmatrix} \color{red}{1} & \color{orange}{0} & \color{pink}{1} \\ 
+\color{blue}{0} & \color{brown}{1} & \color{pink}{0} \\ 
+\color{green}{-1} & \color{cyan}{0} & \color{olive}{1} 
+\end{pmatrix}
 $$
 
 We calculate $A \times B=D$ by multiplying each row of $A$ by each column of $B$:
 
 $$
-D = \begin{pmatrix} (\color{red}{1}\times \color{red}{1} + \color{lightblue}{2}\times \color{lightblue}{0} + \color{green}{3}\times \color{green}{-1}) & (\color{red}{1}\times \color{orange}{0} + \color{lightblue}{2}\times \color{brown}{1} + \color{green}{3}\times \color{cyan}{0}) & (\color{red}{1}\times \color{pink}{1} + \color{lightblue}{2}\times \color{pink}{0} + \color{green}{3}\times \color{lime}{1}) \\ (\color{red}{4}\times \color{red}{1} + \color{lightblue}{5}\times \color{lightblue}{0} + \color{green}{6}\times \color{green}{-1}) & (\color{red}{4}\times \color{orange}{0} + \color{lightblue}{5}\times \color{brown}{1} + \color{green}{6}\times \color{cyan}{0}) & (\color{red}{4}\times \color{pink}{1} + \color{lightblue}{5}\times \color{pink}{0} + \color{green}{6}\times \color{lime}{1}) \\ (\color{red}{7}\times \color{red}{1} + \color{lightblue}{8}\times \color{lightblue}{0} + \color{green}{9}\times \color{green}{-1}) & (\color{red}{7}\times \color{orange}{0} + \color{lightblue}{8}\times \color{brown}{1} + \color{green}{9}\times \color{cyan}{0}) & (\color{red}{7}\times \color{pink}{1} + \color{lightblue}{8}\times \color{pink}{0} + \color{green}{9}\times \color{lime}{1}) \end{pmatrix}
-$$​​
+D = \begin{pmatrix} 
+(\color{red}{1}\times \color{red}{1} + \color{blue}{2}\times \color{blue}{0} + \color{green}{3}\times \color{green}{-1}) & 
+(\color{red}{1}\times \color{orange}{0} + \color{blue}{2}\times \color{brown}{1} + \color{green}{3}\times \color{cyan}{0}) & 
+(\color{red}{1}\times \color{pink}{1} + \color{blue}{2}\times \color{pink}{0} + \color{green}{3}\times \color{olive}{1}) \\ 
+(\color{red}{4}\times \color{red}{1} + \color{blue}{5}\times \color{blue}{0} + \color{green}{6}\times \color{green}{-1}) & 
+(\color{red}{4}\times \color{orange}{0} + \color{blue}{5}\times \color{brown}{1} + \color{green}{6}\times \color{cyan}{0}) & 
+(\color{red}{4}\times \color{pink}{1} + \color{blue}{5}\times \color{pink}{0} + \color{green}{6}\times \color{olive}{1}) \\ 
+(\color{red}{7}\times \color{red}{1} + \color{blue}{8}\times \color{blue}{0} + \color{green}{9}\times \color{green}{-1}) & 
+(\color{red}{7}\times \color{orange}{0} + \color{blue}{8}\times \color{brown}{1} + \color{green}{9}\times \color{cyan}{0}) & 
+(\color{red}{7}\times \color{pink}{1} + \color{blue}{8}\times \color{pink}{0} + \color{green}{9}\times \color{olive}{1}) 
+\end{pmatrix}
+$$
 
 This simplifies to:
 
 $$
-D = \begin{pmatrix} (\color{red}{1} + \color{lightblue}{0} + \color{green}{-3}) & (\color{red}{0} + \color{lightblue}{2} + \color{green}{0}) & (\color{red}{1} + \color{lightblue}{0} + \color{green}{3}) \\ (\color{red}{4} + \color{lightblue}{0} + \color{green}{-6}) & (\color{red}{0} + \color{lightblue}{5} + \color{green}{0}) & (\color{red}{4} + \color{lightblue}{0} + \color{green}{6}) \\ (\color{red}{7} + \color{lightblue}{0} + \color{green}{-9}) & (\color{red}{0} + \color{lightblue}{8} + \color{green}{0}) & (\color{red}{7} + \color{lightblue}{0} + \color{green}{9}) \end{pmatrix} = \begin{pmatrix} -2 & 2 & 4 \\ -2 & 5 & 10 \\ -2 & 8 & 16 \end{pmatrix}$$
-​​
+D = \begin{pmatrix} 
+(\color{red}{1} + \color{blue}{0} + \color{green}{-3}) & (\color{red}{0} + \color{blue}{2} + \color{green}{0}) & (\color{red}{1} + \color{blue}{0} + \color{green}{3}) \\ 
+(\color{red}{4} + \color{blue}{0} + \color{green}{-6}) & (\color{red}{0} + \color{blue}{5} + \color{green}{0}) & (\color{red}{4} + \color{blue}{0} + \color{green}{6}) \\ 
+(\color{red}{7} + \color{blue}{0} + \color{green}{-9}) & (\color{red}{0} + \color{blue}{8} + \color{green}{0}) & (\color{red}{7} + \color{blue}{0} + \color{green}{9}) 
+\end{pmatrix} 
+= \begin{pmatrix} -2 & 2 & 4 \\ -2 & 5 & 10 \\ -2 & 8 & 16 \end{pmatrix}
+$$
 
 
 
