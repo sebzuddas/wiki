@@ -186,16 +186,19 @@ As such, the inverse is found by:
 
 $$ A^{-1}=\frac{1}{|A|} \cdot C_A^T $$
 
-For a $\mathbb R^{2\times 2}$ matrix there is a shortcut:
+For a $\mathbb{R}^{2\times2}$ matrix there is a shortcut:
 
- $$ \begin{pmatrix} a&b\\ c&d \end{pmatrix}^{-1}
-\frac{1}{ad-bc} \begin{pmatrix} d&-b\\ -c&a \end{pmatrix} $$
+$$
+\begin{pmatrix} a & b \\ c & d \end{pmatrix}^{-1}
+= \frac{1}{ad-bc}
+\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+$$
+
 ## Pseudoinverse
-
 ^8a05b2
+Used when we need to invert a matrix but the matrix isn't square, i.e. $\mathbb{R}^{m\times n}$.
 
-- Used when we need to inverse a matrix but that matrix isn't square, ie $\mathbb R^{m\times n}$
-
-$$ \Phi_p^{-1}=(\Phi^{T}\Phi)^{-1}\cdot \Phi^{T} $$
-
+$$
+\Phi_p^{-1} = (\Phi^{T}\Phi)^{-1}\,\Phi^{T}
+$$
 
