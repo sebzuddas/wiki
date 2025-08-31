@@ -4,6 +4,12 @@ aliases:
   - Model-predictive Control
   - model-predictive control
   - model predictive control
+tags:
+  - maths
+  - system
+  - programming
+  - engineering
+  - control
 ---
 # What is MPC?
 

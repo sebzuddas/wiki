@@ -6,6 +6,7 @@ tags:
   - modeling
 ---
 # What are Thermodynamics?
+Thermodynamics focus on the transfer of [[Energy|energy]] within [[System|systems]]. 
 
 # Laws of Thermodynamics
 ## 0. Thermal Equilibrium
