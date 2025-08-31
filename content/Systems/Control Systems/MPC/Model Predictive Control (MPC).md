@@ -13,10 +13,10 @@ tags:
 ---
 # What is MPC?
 
-**Model Predictive Control** is a control strategy that uses a **dynamic model of the system** to **predict future behaviour** and **optimise control inputs** over a finite time horizon. It solves an **[[Optimisation|optimisation]] problem** at each control step to determine the best action, while explicitly handling **constraints** on inputs, states, and outputs.
+**Model Predictive Control** is a control strategy that uses a **dynamic model of the system** to **predict future behaviour** and **optimise control inputs** over a finite time horizon. It solves an **[[Optimisation|optimisation]] problem** at each control step to determine the best action, while explicitly handling **constraints** on inputs, states, and outputs. The problem solved at each time step is an [[Optimal Control|optimal control]] problem. 
 
 # Why use MPC?
-In control engineering, we’re often faced with the task of designing a controller that not only keeps the system stable but also ensures good performance under **physical and operational constraints**. Classical control strategies—like PID, pole placement, or even [[State-space Control|LQR]]—tend to struggle when the system becomes complex, multivariable, nonlinear, or subject to tight limits on inputs or states. That’s where **Model Predictive Control** comes in.
+In control engineering, we’re often faced with the task of designing a controller that not only keeps the system stable but also ensures good performance under **physical and operational constraints**. [[Classical Control|Classical control]] strategies—like PID, pole placement, or even [[State-space Control|LQR]]—tend to struggle when the system becomes complex, multivariable, nonlinear, or subject to tight limits on inputs or states. That’s where **Model Predictive Control** comes in.
 
 MPC stands out by making **explicit use of a model of the system** to anticipate how the system will evolve over a future time horizon. Instead of reacting to the current error only (as in PID), MPC **optimises a sequence of control inputs** to achieve the best future behaviour, while ensuring that no physical or safety limits are violated. This **predictive and optimising nature** is what makes MPC uniquely powerful for modern, constraint-laden control problems.
 

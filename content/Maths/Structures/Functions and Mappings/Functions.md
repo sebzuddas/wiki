@@ -40,6 +40,7 @@ The equation of any line can be generalised to $f(x) = m \cdot x + c$ . Where fo
 <div align = "center">
 <iframe src="https://www.desmos.com/calculator/mo305n5vx3" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 </div>
+
 ### Non-linear Functions
 
 #### Exponentials
@@ -49,7 +50,7 @@ Exponentials describe *how many times a variable is being multiplied by itself*.
 </div>
 
 
-## Formal Definition
+## Formal Definition of a Function
 A function, formally, maps elements of one [[Sets|set]] to elements of another set. 
 $$
 f : X\rightarrow Y, \ \ \ \ x \rightarrow f(x)
