@@ -10,4 +10,4 @@ tags:
   - engineering
 ---
 # What is the Industrial Internet of Things
-The Industrial [[Internet of Things|Internet of Things]] is a subset of the internet of things, with a focus on industrial processes. 
+The Industrial [[Internet of Things (IoT)|Internet of Things (IoT)]] is a subset of the internet of things, with a focus on industrial processes. 

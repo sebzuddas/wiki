@@ -206,3 +206,12 @@ $$
 \Phi_p^{-1} = (\Phi^{T}\Phi)^{-1}\,\Phi^{T}
 $$
 
+---
+# Eigenvectors
+
+
+## Visualisation Tool
+<div align="center">
+<iframe src="https://www.desmos.com/calculator/wccoutuoxh" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
+</div>
+# Eigenvalues
