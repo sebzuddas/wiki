@@ -1,4 +1,4 @@
-§Strategy refers to a comprehensive plan designed to achieve specific long-term goals. It is a framework that guides decision-making and resource allocation to navigate a competitive environment effectively. 
+Strategy & [[Strategic Thinking|strategic thinking]] refers to developing comprehensive plans designed to achieve specific long-term goals. It is a framework that guides decision-making and resource allocation to navigate a competitive environment effectively. 
 
 Strategy encompasses understanding the interplay of internal strengths and weaknesses with external opportunities and threats. Effective strategies are often adaptable, allowing for responses to changing conditions while maintaining a focus on overarching objectives. In a business context, this might involve [[market analysis]], [[competitive positioning]], and innovative growth tactics. In broader applications, such as military or political arenas, strategy focuses on leveraging advantages and minimising vulnerabilities to achieve success.
 
