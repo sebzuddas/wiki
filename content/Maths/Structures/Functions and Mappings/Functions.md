@@ -18,8 +18,10 @@ Above, the input $x$ is passed into the function $function()$. The result of inp
 When visualising the function $f(x) = x$ we see a line. This line tells us that for every time we input 1, we get 1 as an output. As we go along the number line on the horizontal axis, we go along the number line at the same rate on the horizontal axis.
 
 <div align="center"><iframe src="https://www.desmos.com/calculator/j1thkiirwu?embed" width="500" height="250" style="border: 1px solid #ccc" frameborder=0></iframe></div>
+
 ## Function Intuitions
 Functions can take many forms, since there are many real-world processes that are described by functions. It is therefore important to develop an intuition around some of the basic  functions. 
+
 ### Linear Functions
 
 #### Simple Addition
@@ -61,12 +63,9 @@ Functions unlock a way of analysing the world that would have been previously ha
 
 ^ccba29
 
+## Basic Definition
 Functionals are a generalisation of the behaviour of functions. Functionals differ in subtle ways to functions, taking *functions as inputs to functionals*, and outputting a *scalar value* aka a *number*. 
 $$
 \mathcal F[f] \rightarrow \mathbb R
 $$
-
-
-## Basic Definition
-
 # Why do we need Functionals?
