@@ -3,6 +3,7 @@ aliases:
   - work
 tags:
   - engineering
+  - physics
 ---
 
 # What is Work?

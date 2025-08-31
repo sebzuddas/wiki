@@ -1,6 +1,7 @@
 ---
 tags:
   - maths
+  - physics
 aliases:
   - Nuclear physics
   - nuclear physics

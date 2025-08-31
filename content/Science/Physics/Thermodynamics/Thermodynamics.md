@@ -4,6 +4,7 @@ aliases:
 tags:
   - energy
   - modeling
+  - physics
 ---
 # What are Thermodynamics?
 Thermodynamics focus on the transfer of [[Energy|energy]] within [[System|systems]]. This includes [[Heat|heat]], [[Work|work]] and 

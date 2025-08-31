@@ -5,6 +5,7 @@ tags:
   - energy
   - engineering
 ---
+Similar to the [[Electricity System Operator (ESO)]] but more local. The DSO distributes [[Power]] to residential areas and businesses in their are of operation. They manage the [[Energy]] [[System]] in their local area. 
 
 Distribution Network Operators (DNO's) are quickly evolving into Distribution System Operators (DSO's). This is because they are taking on new responsibilities based on innovations, whereby DNO's are transitioning from providing power from traditional power stations to more Distributed Energy Resources (DER's), such as wind, PV, Hydro etc.   
 
