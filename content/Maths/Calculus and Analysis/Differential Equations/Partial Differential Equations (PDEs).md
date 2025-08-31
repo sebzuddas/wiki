@@ -15,6 +15,6 @@ tags:
   - modeling
 ---
 # What is a Partial Differential Equation?
-
+A generalisation of an [[Ordinary Differential Equations (ODEs)|ordinary differential equation]].
 
 # Why do we need Partial Differential Equations?

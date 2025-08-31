@@ -30,3 +30,5 @@ $$
 Find a input vector $\vec u : [t_0, t_f] \rightarrow \mathbb U$ that guarantees the target set $\psi (t_f, \vec x (t_f))=\vec 0$ whilst minimising $J(\vec u)$.
 
 ---
+# How?
+Optimal control problems are solved through using [[Calculus of Variations]]. 

@@ -6,6 +6,6 @@ aliases:
   - bioprocess
   - Bioprocess
   - bioprocesses
-dg-publish: true
+dg-publish: false
 ---
-[[Cells]] as factories. 
+[[Cells]] as factories. Cells contain [[Chemical Energy]]. 
