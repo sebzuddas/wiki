@@ -16,13 +16,7 @@ tags:
 ---
 
 # What are Differential Equations?
-ODEs are essential in mathematics, physics, engineering, and other fields because they describe the behaviour of dynamic systems. When something changes over time or space (like velocity, temperature, or population), ODEs help us model those changes.
-
-
-# Why do we use Differential Equations?
-
-
-
+ODEs are essential in mathematics, physics, engineering, and other fields because they describe the behaviour of dynamic systems. When something changes over time or space (like velocity, temperature, or population), ODEs help model those changes.
 
 # First Order ODE's
 ## First-Order Ordinary Differential Equation:

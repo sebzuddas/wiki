@@ -64,7 +64,14 @@ Functions unlock a way of analysing the world that would have been previously ha
 ^ccba29
 
 ## Basic Definition
-Functionals are a generalisation of the behaviour of functions. Functionals differ in subtle ways to functions, taking *functions as inputs to functionals*, and outputting a *scalar value* aka a *number*. 
+Functionals are a generalisation of the behaviour of functions. There are different ways to define functionals, based on the domain in which they are applied. 
+
+### 1. The [[Linear Algebra]] Definition
+In Linear algebra, a functional is basically the 
+
+### 2. The Functional Analysis Definition
+
+In functional analysis, functionals differ in subtle ways to functions, taking *functions as inputs to functionals*, and outputting a *scalar value* - a *number*. 
 $$
 \mathcal F[f] \rightarrow \mathbb R
 $$
