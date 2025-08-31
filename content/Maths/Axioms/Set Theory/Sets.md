@@ -11,13 +11,16 @@ A set is a collection of objects. Any group of related, but unordered objects ca
 
 
 # Why do we need Sets?
-
+Sets are conceptual boxes or baskets that we can use in order to group things together. For example, we may want to understand 
 
 # Common Sets
-
-
 
 ## Real Numbers $\mathbb R$
 
 ^b8ba0f
 
+
+
+
+
+# Sets and Subsets

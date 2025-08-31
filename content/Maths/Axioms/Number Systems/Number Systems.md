@@ -11,11 +11,6 @@ tags:
 # What are Number Systems
 Number systems are a way to represent 
 
-
-# Number Systems and Writing
-
-
-
 # Number [[Sets]]
 ## Natural Numbers
 The natural numbers are represented by the sign $\mathbb N$. The intuition behind natural numbers is to represent quantities of physical things in reality. These are the first types of numbers that human beings considered. 
@@ -28,6 +23,9 @@ For example, when counting the number of apples in a basket, you start from one 
 
 > [!note]
 > Natural numbers have no end. If you reach a maximum, then you can always 'add another'. For example, if you have 1000 apples in your basket, you can always *add one more*.  
+### Subsets
+
+##
 
 
 # Base-N Systems
