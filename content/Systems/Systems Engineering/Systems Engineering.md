@@ -9,7 +9,7 @@ tags:
   - system
 ---
 # What is Systems Engineering
-Systems engineering is the discipline that brings together multiple engineering fields in order to deliver complex engineering projects and products. It is an interdisciplinary field that intersects technology and management. 
+[[System|Systems]] engineering is the discipline that brings together multiple engineering fields in order to deliver complex engineering projects and products. It is an interdisciplinary field that intersects technology and management. 
 
 # Why do we need Systems Engineering
 Systems engineering is necessary for engineered systems that have a level of complexity in which a small group of specialised engineers cannot themselves manage. The core function of systems engineering processes is to handle complex projects and ensure that the system itself delivers on the capabilities it promises. The more complex a system, the higher the RoI in terms of value that systems engineering provides - both in terms of money and time. 
@@ -19,7 +19,12 @@ There are two notable approaches to following systems engineering processes, not
 
 ---
 # Development Models
+
+^507a3f
+
 ## Traditional V-Model
+
+^a50d87
 
 ![image](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Systems_Engineering_Process_II.svg/2560px-Systems_Engineering_Process_II.svg.png)
 ## Agile V-model
@@ -28,6 +33,8 @@ There are two notable approaches to following systems engineering processes, not
 
 
 ## Pure Agile
+
+^c75c01
 
 ![agile development process](https://www.rosemet.com/wp-content/uploads/2024/07/WHATAR1.jpg)
 

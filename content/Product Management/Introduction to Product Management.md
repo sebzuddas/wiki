@@ -1,9 +1,10 @@
-# Leading through influence
+# Leading through [[Influence]]
 - Are the team happy?
 - Being emotionally available within the team. 
 - Does the team have clarity with the thing they're building?
 - Always be open to *listen*. The team is expert in what they do. 
-- 
+- Build [[Rapport|rapport]] with the team. 
+
 
 # Who are the core team?
 - UX
@@ -30,23 +31,22 @@
 - Users
     - The most important group. 
 
-# Agile vs Waterfall?
+# Which [[Systems Engineering#^507a3f|Development Model]] to use?
 The creation is dependent on the product made. Are you building an app vs a physical device? This informs the development process. 
 
-## Waterfall
+## [[Systems Engineering#^a50d87|Waterfall]]
 - More appropriate for a physical device.
 - Product details need to be articulated and consolidated before it is built. 
 
-## Agile
+## [[Systems Engineering#^c75c01|Agile]]
 - More appropriate for pure software. 
-
 
 # Product Lifecycles
 - Each product has a different lifecycle, often depending on whether your product warrants an agile vs a waterfall methodology. 
 - It is important to flow between sprints. 
 
 # Research
-- It is important to create a strong reserach plan. 
+- It is important to create a strong research plan (build a [[Strategy|strategy]]). 
 - It needs to be an organised process. 
 - Quantitative vs Qualitative. 
 - Internal vs External. 
