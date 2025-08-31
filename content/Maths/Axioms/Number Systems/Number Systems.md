@@ -17,7 +17,10 @@ Number systems are a way to represent quantities or values.
 
 ---
 # [[Sets]] of Numbers
-We can view number sets through the lens of human evolution. [[#Natural Numbers|natural numbers]] were used when human beings were still hunter gatherers, and thought of gathering and grouping physical things, such as apples. Then humans evolved to have some form of surplus and scarcity, resulting in [[#Integers]], where some have an excess of apples, and some have apple scarcity (hence the negatives). Then human beings developed apple pies, but apple pies couldn't all be eaten by one person at once! So they invented [[#Rational Numbers]] to divide the apple pie into even pieces for the family. Then, human beings wanted to understand how big apple pies could get, and whether it was worth making many small apple pies or one big apple pie, hence they had to understand ratios and circles, leading to the discovery of $\pi$, hence the discovery of [[#Irrational Numbers]]. They then decided to group all of these numbers together, to understand 
+We can view number sets through the lens of human evolution. [[#Natural Numbers|natural numbers]] were used when human beings were still hunter gatherers, and thought of gathering and grouping physical things, such as apples. Then humans evolved to manage forms of surplus and scarcity, resulting in [[#Integers]], where some may have an excess of apples, and some may have a scarcity of apples (leading to zeros and negatives). Then human beings developed apple pies, but apple pies couldn't all be eaten by one person at once! So they invented [[#Rational Numbers]] to divide the apple pie into even pieces for the family. Then, human beings wanted to understand how big apple pies could get, and whether it was worth making [many small apple pies or one big apple pie](https://www.tasteofhome.com/article/2-medium-pizzas-vs-1-large/), hence they had to understand ratios and circles, leading to the discovery of $\pi$, hence the discovery of [[#Irrational Numbers]]. Grouping these sets of numbers together, we get [[#Real Numbers]]. But then [Rafael Bombelli](https://en.wikipedia.org/wiki/Rafael_Bombelli) in the 1500's asked the question "what happens when we $\sqrt{-1}$?" and came up with conventions to handle these numbers, leading to [[#Complex Numbers]]. 
+x
+![sets of all numbers](https://ars.els-cdn.com/content/image/3-s2.0-B9780128029671000103-u10-02-9780128029671.jpg)
+
 ## Natural Numbers
 The natural numbers are represented by the sign $\mathbb N$. The intuition behind natural numbers is to represent quantities of physical things in reality. These are the first types of numbers that human beings considered. The natural numbers **do not contain zero!**
 
@@ -53,6 +56,8 @@ The above means that rational numbers are a fraction, with $m$ and $n$ being int
 ## Irrational Numbers
 
 ## Real Numbers
+
+
 
 ## Complex Numbers
 
