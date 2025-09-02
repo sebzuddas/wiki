@@ -7,7 +7,7 @@ tags:
   - data
   - control
   - maths
-  - programming
+  - computing
   - engineering
 ---
 # What is Reinforcement Learning?

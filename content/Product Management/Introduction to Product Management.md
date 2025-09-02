@@ -2,7 +2,7 @@
 - Are the team happy?
 - Being emotionally available within the team. 
 - Does the team have clarity with the thing they're building?
-- Always be open to *listen*. The team is expert in what they do. 
+- Always be open to *listen*. Be [[Authenticity|authentic]] when listening. The team is expert in what they do. 
 - Build [[Rapport|rapport]] with the team. 
 
 

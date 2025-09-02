@@ -6,7 +6,7 @@ aliases:
 tags:
   - data
   - engineering
-  - programming
+  - computing
 ---
 # What are Searching Algorithms?
 

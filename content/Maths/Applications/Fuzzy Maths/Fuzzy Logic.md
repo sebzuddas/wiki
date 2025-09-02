@@ -6,7 +6,7 @@ tags:
   - maths
   - engineering
   - modeling
-  - programming
+  - computing
   - data
   - system
 ---

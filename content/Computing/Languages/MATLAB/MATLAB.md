@@ -3,7 +3,7 @@ aliases:
   - matlab
   - Matlab
 tags:
-  - programming
+  - computing
   - system
   - engineering
   - modeling

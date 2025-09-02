@@ -6,7 +6,7 @@ aliases:
 tags:
   - engineering
   - control
-  - programming
+  - computing
   - system
 ---
 # What is a Microcontroller

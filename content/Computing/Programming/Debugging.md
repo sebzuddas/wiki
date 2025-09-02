@@ -2,7 +2,7 @@
 aliases:
   - debugging
 tags:
-  - programming
+  - computing
   - engineering
 ---
 

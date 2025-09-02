@@ -7,7 +7,7 @@ aliases:
 tags:
   - maths
   - system
-  - programming
+  - computing
   - engineering
   - control
 ---

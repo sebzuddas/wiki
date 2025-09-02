@@ -5,7 +5,7 @@ aliases:
 tags:
   - data
   - engineering
-  - programming
+  - computing
   - system
 ---
 # What is Signal Processing?

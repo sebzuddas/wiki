@@ -2,7 +2,7 @@
 aliases:
   - python
 tags:
-  - programming
+  - computing
 ---
 # What is Python
 python is a high-level general purpose programming language. As a language, it makes use of garbage collection and dynamic typing.

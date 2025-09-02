@@ -16,7 +16,7 @@ tags:
 ---
 
 # What are Differential Equations?
-ODEs are essential in mathematics, physics, engineering, and other fields because they describe the behaviour of dynamic systems. When something changes over time or space (like velocity, temperature, or population), ODEs help model those changes.
+ODEs are essential in mathematics, physics, engineering, and other fields because they describe the behaviour of dynamic systems. When something changes over time or space (like velocity, temperature, or population), ODEs help model those changes. Differential equations rely heavily on [[Calculus|calculus]].
 
 # First Order ODE's
 ## First-Order Ordinary Differential Equation:
@@ -108,3 +108,13 @@ y_1(x) = C_1 \cos(x) + C_2 \sin(x), \quad y_2(x) = -C_1 \sin(x) + C_2 \cos(x)
 $$
 
 Where $C_1$ and $C_2$ are constants of integration.
+
+
+---
+
+# Applications of ODEs 
+## Euler-Lagrange Equation
+
+$$
+F(y) =\int_a^bf(x, y, \frac{dy}{dx})
+$$

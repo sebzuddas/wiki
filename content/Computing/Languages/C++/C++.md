@@ -1,6 +1,6 @@
 ---
 tags:
-  - programming
+  - computing
   - system
   - engineering
 ---

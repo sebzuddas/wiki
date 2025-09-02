@@ -5,7 +5,7 @@ aliases:
   - databases
 tags:
   - data
-  - programming
+  - computing
 ---
 # What is a Database?
 A database is used to store [[Information Theory]]. 

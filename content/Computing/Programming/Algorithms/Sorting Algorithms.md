@@ -2,7 +2,7 @@
 tags:
   - data
   - engineering
-  - programming
+  - computing
 ---
 # What are Sorting Algorithms?
 

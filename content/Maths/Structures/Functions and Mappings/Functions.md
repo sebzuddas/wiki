@@ -64,18 +64,39 @@ Functions unlock a way of analysing the world that would have been previously ha
 
 ^ccba29
 
-## Basic Definition
+## Definitions of a Functional
 Functionals are a generalisation of the behaviour of functions. There are different ways to define functionals, based on the domain in which they are applied. 
 
-### 1. The [[Linear Algebra]] Definition
+### 1. The [[Linear Algebra]] Definition of a Functional
 
 
-### 2. The Functional Analysis Definition
-
-In functional analysis, functionals differ in subtle ways to functions, taking *functions as inputs to functionals*, and outputting a *scalar value* - a *number*. 
+### 2. The Functional Analysis Definition of a Functional
+In functional analysis, functionals differ in subtle ways to functions, taking *functions as inputs to functionals*, and outputting a *scalar value* - a *number*.  ^63c024
 $$
 \mathcal F[f] \rightarrow \mathbb R
 $$
 
 # Why do we need Functionals?
+In order to handle things like [[Optimal Control]], [[Lagrangian Mechanics]] and [[Geodesics]]. 
 
+
+# Examples of Functionals
+
+- The [[Scalar Product (Dot Product)|dot product]] can be considered a functional
+- $||x||_n$ norms can be considered functionals. 
+
+$$
+F(y) = \int_0^1y(x^2)dx \mapsto \mathbb R
+$$
+
+
+
+---
+# Functions vs Functionals
+
+| Functions                                   | Functionals                                   |
+| ------------------------------------------- | --------------------------------------------- |
+| Takes a *number* as input                   | Takes a *function* as input                   |
+| Returns a number                            | Returns a number                              |
+| No general form                             | Generally expressed as a definite integral    |
+| Changes described as *ordinary derivatives* | Changes described as *functional derivatives* |

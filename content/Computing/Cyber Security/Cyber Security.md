@@ -5,6 +5,6 @@ aliases:
   - cybersecurity
   - cyber security
 tags:
-  - programming
+  - computing
   - data
 ---

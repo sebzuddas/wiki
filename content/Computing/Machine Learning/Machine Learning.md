@@ -7,7 +7,7 @@ tags:
   - engineering
   - data
   - maths
-  - programming
+  - computing
 ---
 # What is Machine Learning?
 Uses [[Loss Functions]] to optimise. 

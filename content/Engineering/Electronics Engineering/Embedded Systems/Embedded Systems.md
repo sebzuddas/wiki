@@ -9,7 +9,7 @@ tags:
   - data
   - digital-twins
   - engineering
-  - programming
+  - computing
   - system
 ---
 This includes [[Microcontroller|microcontrollers]] and [[Circuits|circuits]].

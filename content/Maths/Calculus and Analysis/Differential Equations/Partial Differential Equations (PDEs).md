@@ -15,6 +15,6 @@ tags:
   - modeling
 ---
 # What is a Partial Differential Equation?
-A generalisation of an [[Ordinary Differential Equations (ODEs)|ordinary differential equation]].
+A generalisation of an [[Ordinary Differential Equations (ODEs)|ordinary differential equation]]. Where as ODEs deal with changes in the *same* direction, PDEs deal with changes in *different* directions. 
 
 # Why do we need Partial Differential Equations?

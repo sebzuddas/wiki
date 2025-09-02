@@ -5,6 +5,6 @@ tags:
   - digital-twins
   - data
   - engineering
-  - programming
+  - computing
 ---
 PostgreSQL is a type of [[Database]]
