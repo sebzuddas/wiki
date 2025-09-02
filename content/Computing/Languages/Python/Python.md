@@ -5,7 +5,7 @@ tags:
   - computing
 ---
 # What is Python
-python is a high-level general purpose programming language. As a language, it makes use of garbage collection and dynamic typing.
+python is a high-level general purpose programming language. As a language, it makes use of garbage collection and dynamic typing. Python is built on top of [[C]].
 
 # Libraries
 Python is best known for its vast range of libraries. 
