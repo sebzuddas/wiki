@@ -5,8 +5,11 @@ tags:
   - computing
   - engineering
 ---
+# What is Debugging?
+A way to catch errors when programming. 
 
-When using VScode, using the debugger prevents you from having to use print statements throughout your code. The debugger typically uses a `launch.json` file, which is set up as follows:
+# VS Code
+When using VScode and [[python]], using the debugger prevents you from having to use print statements throughout your code. The debugger typically uses a `launch.json` file, which is set up as follows:
 
 ```json
 

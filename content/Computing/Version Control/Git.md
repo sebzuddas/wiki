@@ -2,6 +2,10 @@
 aliases:
   - git
 ---
+# What is Git?
+A version control system, built by the same person who built [[Linux]]. 
+
+
 # Gitignores
 ```git
 

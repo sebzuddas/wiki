@@ -13,8 +13,10 @@ tags:
   - system
 ---
 # What is a UAS?
-UAS is a general term for unmanned vehicles that fly, such as quad-rotor and fixed-wing drones. 
-## UAS Regulations
+UAS is a general term for unmanned vehicles that fly, such as quad-rotor and fixed-wing drones. A form of autonomous system with [[motors]], [[sensors]], [[actuators]], [[Control Theory|control systems]]. 
+
+
+# UAS Regulations
 
 ## Europe
 
