@@ -36,7 +36,7 @@ One of the central motivations for linear algebra is solving systems of linear e
 
 ### Linear Systems
 
-A linear system consists of equations where each unknown appears only to the first power and with no products between variables. A general system of $m$ equations in $n$ unknowns can be written as:
+A linear system consists of equations where each unknown appears *only to the first power* and with *no products between variables*. A general system of $m$ equations in $n$ unknowns can be written as:
 
 $$
 \begin{aligned}
@@ -108,10 +108,8 @@ The nature of the solution depends on the rank of $A$ and its relation to the au
 
 ### Geometric Interpretation
 
-- In $\mathbb{R}^2$, each linear equation represents a line. Solving a system means finding intersection points of
-  lines.
-- In $\mathbb{R}^3$, each equation represents a plane. A system may have no solution (parallel planes), one solution (a
-  unique intersection point), or infinitely many (a line of intersection).
+- In $\mathbb{R}^2$, each linear equation represents a line. Solving a system means finding intersection points of lines.
+- In $\mathbb{R}^3$, each equation represents a plane. A system may have no solution (parallel planes), one solution (a unique intersection point), or infinitely many (a line of intersection).
 - In higher dimensions, the picture generalizes: solutions form intersections of hyperplanes.
 
 ### Why this matters
@@ -184,8 +182,7 @@ These operations correspond to re-expressing equations in different but equivale
 A matrix is in row echelon form (REF) if:
 
 1. All nonzero rows are above any zero rows.
-2. Each leading entry (the first nonzero number from the left in a row) is to the right of the leading entry in the row
-   above.
+2. Each leading entry (the first nonzero number from the left in a row) is to the right of the leading entry in the row above.
 3. All entries below a leading entry are zero.
 
 Further, if each leading entry is 1 and is the only nonzero entry in its column, the matrix is in reduced row echelon form (RREF).
@@ -201,7 +198,7 @@ If we continue to RREF, the solution can be read off directly.
 
 ### Example
 
-Example 3.2.1. Solve
+#### Example 3.2.1. Solve
 
 $$
 \begin{cases}
