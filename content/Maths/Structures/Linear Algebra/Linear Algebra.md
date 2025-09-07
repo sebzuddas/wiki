@@ -508,8 +508,7 @@ $$
 \text{rank}(A) < n.
 $$
 
-In this case, there are infinitely many solutions, forming a subspace of $\mathbb{R}^n$. The dimension of this solution
-space is
+In this case, there are infinitely many solutions, forming a subspace of $\mathbb{R}^n$. The dimension of this solution space is
 
 $$
 \dim(\text{null}(A)) = n - \text{rank}(A),
