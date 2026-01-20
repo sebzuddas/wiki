@@ -4,3 +4,4 @@ aliases:
   - IP
 ---
 https://cidr.xyz/
+
