@@ -57,3 +57,43 @@ for row in A:
 
 ```
 
+### Using Flags
+
+```python
+A = [[a11, a12, a13],
+	[a21, a22, a23],
+	[a31, a32, a33]]
+	
+flag = False
+for row in A:
+	for item in row:
+		if item == 'a22':
+			flag = True
+			break #breaks the inner loop
+	if flag
+		break
+		# breaks the outer loop
+```
+
+### Three +
+
+```python 
+
+A = [[[a111]], [a121], [a131]],
+	[[a211], [a221], [a231]],
+	[[a311], [a321], [a331]]]
+	
+flag = False
+for row in A:
+	for item in row:
+		for cell in item
+			if cell == 'a22':
+				flag = True
+				break #breaks the inner loop
+		if flag
+		break # breaks the middle loop
+	if flag
+		break
+		# breaks the outer loop
+		
+```
