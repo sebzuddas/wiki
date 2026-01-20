@@ -1,7 +1,4 @@
 ---
 aliases:
-  - ip
-  - IP
+  - UI
 ---
-
-
