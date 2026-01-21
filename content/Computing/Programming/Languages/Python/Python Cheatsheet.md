@@ -8,6 +8,21 @@ tags:
   - maths
   - modeling
 ---
+# Lists
+## Instantiation
+```python
+new_list = [value]*length
+```
+
+## List Comprehension
+
+```python
+new_list = [value for iteration in length]
+```
+
+
+# Arrays
+
 
 # Loops
 

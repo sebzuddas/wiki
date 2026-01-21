@@ -9,7 +9,7 @@ tags:
 A way to catch errors when programming. 
 
 # VS Code
-When using VScode and [[python]], using the debugger prevents you from having to use print statements throughout your code. The debugger typically uses a `launch.json` file, which is set up as follows:
+When using VScode and [[Python]], using the debugger prevents you from having to use print statements throughout your code. The debugger typically uses a `launch.json` file, which is set up as follows:
 
 ```json
 
