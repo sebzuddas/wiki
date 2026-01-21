@@ -8,6 +8,15 @@ tags:
   - maths
   - modeling
 ---
+# Package Management
+Package management in [[Python]] helps organise collections of downloadable software packages. There are a number of package managers available, each with their own unique advantages. However, [[#UV]] has become a personal favourite. 
+
+## Pip
+## Conda
+## Mamba
+## UV
+
+
 # Lists
 ## Instantiation
 ```python
@@ -22,6 +31,10 @@ new_list = [value for iteration in length]
 
 
 # Arrays
+Arrays in  [[Python]] use the `numpy` library. 
+```python
+import numpy as np
+```
 
 
 # Loops
