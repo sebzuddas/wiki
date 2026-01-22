@@ -24,11 +24,21 @@ A REST API call follows four steps:
 ![REST Architecture](https://www.gstatic.com/bricks/image/321862a0-3a14-4abb-a148-36bb8781c0f7.png)
 The REST API architecture is by far the most commonly used and powers much of the modern internet. 
 
+#### Request Methods
+- `GET` - retrieves a resource
+- `POST` - submits new data to the server
+- `PUT` - updates existing data
+- `DELETE` - removes data
+
+These request methods map to [[Create, Read, Update, Delete (CRUD)|CRUD]] operations. 
+
 ### Key Points on REST
 - Maps resources to URLs, and uses [[Protocols|HTTP]] to methods to manipulate those resources. 
 - For example `/users/{userID}` to get a user or `POST /user/{userID}/booking` to create a booking. 
 - If you're returning large results, you'll want to use pagination. 
-- 
+
+
+
 
 [More](https://cloud.google.com/discover/what-is-rest-api) on REST APIs. 
 
@@ -41,6 +51,8 @@ The REST API architecture is by far the most commonly used and powers much of th
 # API Design
 More on [API Design](https://www.hellointerview.com/learn/system-design/core-concepts/api-design). 
 ## Microservices
+
+### API Gateways
 
 ## Pagination
 
