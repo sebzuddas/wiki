@@ -8,4 +8,4 @@ tags:
   - computing
 ---
 # What is a Database?
-A database is used to store [[Information Theory]]. 
+A database is used to store [[Information Theory|information]] in a structured way. 
