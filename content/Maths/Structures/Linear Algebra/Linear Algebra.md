@@ -33,6 +33,7 @@ tags:
 ## 3.1 Linear Systems and Solutions
 
 One of the central motivations for linear algebra is solving systems of linear equations. These systems arise naturally in science, engineering, and data analysis whenever multiple constraints interact. Matrices provide a compact language for expressing and solving them.
+[[Uniform Resource Identifier (URI)|uri]]
 
 ### Linear Systems
 
