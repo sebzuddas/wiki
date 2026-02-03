@@ -4,7 +4,7 @@ aliases:
   - Linear algebra
 tags:
   - maths
-  - modeling
+  - modelling
   - control
   - engineering
   - computing
@@ -33,7 +33,6 @@ tags:
 ## 3.1 Linear Systems and Solutions
 
 One of the central motivations for linear algebra is solving systems of linear equations. These systems arise naturally in science, engineering, and data analysis whenever multiple constraints interact. Matrices provide a compact language for expressing and solving them.
-[[Uniform Resource Identifier (URI)|uri]]
 
 ### Linear Systems
 
@@ -64,7 +63,7 @@ where
 * $\mathbf{x} \in \mathbb{R}^n$ is the column vector of unknowns,
 * $\mathbf{b} \in \mathbb{R}^m$ is the column vector of constants.
 
-This formulation turns the problem of solving equations into analyzing the action of a matrix.
+This formulation turns the problem of solving equations into analysing the action of a matrix.
 
 Example 3.1.1.
 The system
@@ -1314,7 +1313,7 @@ Change of basis connects the abstract notion of similarity to practical computat
 1. Let $A = \begin{bmatrix} 2 & 1 \\ 0 & 2 \end{bmatrix}$. Compute its representation in the basis $\{(1,0),(1,1)\}$.
 2. Find the change-of-basis matrix from the standard basis of $\mathbb{R}^2$ to $\{(2,1),(1,1)\}$.
 3. Prove that similar matrices (related by $P^{-1}AP$) represent the same linear transformation under different bases.
-4. Diagonalize the matrix $A = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$ in the basis $\{(1,1),(1,-1)\}$.
+4. diagonalise the matrix $A = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$ in the basis $\{(1,1),(1,-1)\}$.
 5. In $\mathbb{R}^3$, let $\mathcal{B} = \{(1,0,0),(1,1,0),(1,1,1)\}$. Construct the change-of-basis matrix $P$ and
    compute $P^{-1}$.
 
@@ -2193,7 +2192,7 @@ Eigenvalues and eigenvectors are a bridge between algebra and geometry. They pro
 
 ## 8.2 Diagonalization
 
-A central goal in linear algebra is to simplify the action of a matrix by choosing a good basis. Diagonalisation is the process of rewriting a matrix so that it acts by simple scaling along independent directions. This makes computations such as powers, exponentials, and solving differential equations far easier.
+A central goal in linear algebra is to simplify the action of a matrix by choosing a good basis. diagonalisation is the process of rewriting a matrix so that it acts by simple scaling along independent directions. This makes computations such as powers, exponentials, and solving differential equations far easier.
 
 ### Definition
 
@@ -2258,9 +2257,9 @@ Thus, $A$ is diagonalizable.
   $e^A = P e^D P^{-1}$, useful in solving differential equations.
 
 * Understanding geometry:
-  Diagonalisation reveals the directions along which a transformation stretches or compresses space independently.
+  diagonalisation reveals the directions along which a transformation stretches or compresses space independently.
 
-### Non-Diagonalisable Example
+### Non-diagonalisable Example
 
 Not all matrices can be diagonalised.
 
@@ -2272,11 +2271,11 @@ has only one eigenvalue $\lambda = 1$, with eigenspace dimension 1. Since $n=2$ 
 
 ### Geometric Interpretation
 
-Diagonalisation means we have found a basis of eigenvectors. In this basis, the matrix acts by simple scaling along each coordinate axis. It transforms complicated motion into independent 1D motions.
+diagonalisation means we have found a basis of eigenvectors. In this basis, the matrix acts by simple scaling along each coordinate axis. It transforms complicated motion into independent 1D motions.
 
 ### Why this matters
 
-Diagonalisation is a cornerstone of linear algebra. It simplifies computation, reveals structure, and is the starting point for the spectral theorem, Jordan form, and many applications in physics, engineering, and data science.
+diagonalisation is a cornerstone of linear algebra. It simplifies computation, reveals structure, and is the starting point for the spectral theorem, Jordan form, and many applications in physics, engineering, and data science.
 
 ### Exercises 8.2
 
@@ -2470,7 +2469,7 @@ $$
 \mathbf{x}_k = P^k \mathbf{x}_0.
 $$
 
-Understanding long-term behavior reduces to analyzing powers of $P$.
+Understanding long-term behavior reduces to analysing powers of $P$.
 
 * The eigenvalue $\lambda = 1$ always exists. Its eigenvector gives the steady-state distribution.
 * All other eigenvalues satisfy $|\lambda| \leq 1$. Their influence decays as $k \to \infty$.
@@ -2602,7 +2601,7 @@ Diagonalization aligns the coordinate axes with the principal axes of the shape.
 
 ### Why this matters
 
-Quadratic forms unify geometry and algebra. They are central in optimization (minimizing energy functions), statistics (covariance matrices and variance), mechanics ([[kinetic energy]]), and numerical analysis. Understanding quadratic forms leads directly to the spectral theorem.
+Quadratic forms unify geometry and algebra. They are central in optimisation (minimizing energy functions), statistics (covariance matrices and variance), mechanics ([[kinetic energy]]), and numerical analysis. Understanding quadratic forms leads directly to the spectral theorem.
 
 ### Exercises 9.1
 
@@ -2685,13 +2684,13 @@ For a symmetric matrix $A$:
 
 ### Applications
 
-* Optimization: Hessians of convex functions are positive semidefinite; strict convexity corresponds to positive definite [[Hessian Matrix|Hessians]].
+* optimisation: Hessians of convex functions are positive semidefinite; strict convexity corresponds to positive definite [[Hessian Matrix|Hessians]].
 * Statistics: Covariance matrices are positive semidefinite.
 * Numerical methods: Cholesky decomposition is widely used to solve systems with positive definite matrices efficiently.
 
 ### Why this matters
 
-Positive definiteness provides stability and guarantees in mathematics and computation. It ensures energy functions are bounded below, optimization problems have unique solutions, and statistical models are meaningful.
+Positive definiteness provides stability and guarantees in mathematics and computation. It ensures energy functions are bounded below, optimisation problems have unique solutions, and statistical models are meaningful.
 
 ### Exercises 9.2
 
@@ -2797,8 +2796,8 @@ The spectral theorem says every symmetric matrix acts like independent scaling a
 
 ### Applications
 
-* Optimization: The spectral theorem underlies classification of critical points via eigenvalues of the [[Hessian Matrix|Hessian]].
-* PCA (Principal Component Analysis): Data covariance matrices are symmetric, and PCA finds orthogonal directions of maximum variance.
+* optimisation: The spectral theorem underlies classification of critical points via eigenvalues of the [[Hessian Matrix|Hessian]].
+* [[#Principal Component Analysis (PCA)|PCA]] (Principal Component Analysis): Data covariance matrices are symmetric, and [[#Principal Component Analysis (PCA)|PCA]] finds orthogonal directions of maximum variance.
 * Differential equations & physics: Symmetric operators correspond to measurable quantities with real eigenvalues (stability, energy).
 
 ### Why this matters
@@ -2829,9 +2828,9 @@ The spectral theorem guarantees that symmetric matrices are as simple as possibl
 
    and interpret the eigenvectors as principal directions of variance.
 
-## 9.4 Principal Component Analysis (PCA)
+## 9.4 Principal Component Analysis ([[#Principal Component Analysis (PCA)|PCA]])
 
-Principal Component Analysis (PCA) is a widely used technique in data science, machine learning, and statistics. At its core, PCA is an application of the spectral theorem to covariance matrices: it finds orthogonal directions (principal components) that capture the maximum variance in data.
+Principal Component Analysis ([[#Principal Component Analysis (PCA)|PCA]]) is a widely used technique in data science, machine learning, and statistics. At its core, [[#Principal Component Analysis (PCA)|PCA]] is an application of the spectral theorem to covariance matrices: it finds orthogonal directions (principal components) that capture the maximum variance in data.
 
 ### The Idea
 
@@ -2864,29 +2863,29 @@ Eigenvalues are about $3.9$ and $0.1$. The eigenvector for $\lambda = 3.9$ is ap
 * Most variance lies along this direction.
 * Second component is nearly orthogonal ($y = -x$), but variance there is tiny.
 
-Thus PCA reduces the data to essentially one dimension.
+Thus [[#Principal Component Analysis (PCA)|PCA]] reduces the data to essentially one dimension.
 
-### Applications of PCA
+### Applications of [[#Principal Component Analysis (PCA)|PCA]]
 
 1. Dimensionality reduction: Represent data with fewer features while retaining most variance.
 2. Noise reduction: Small eigenvalues correspond to noise; discarding them filters data.
 3. Visualization: Projecting high-dimensional data onto top 2 or 3 principal components reveals structure.
-4. Compression: PCA is used in image and signal compression.
+4. Compression: [[#Principal Component Analysis (PCA)|PCA]] is used in image and signal compression.
 
 ### Connection to the Spectral Theorem
 
-The covariance matrix $\Sigma$ is always symmetric and positive semidefinite. Hence by the spectral theorem, it has an orthonormal basis of eigenvectors and nonnegative real eigenvalues. PCA is nothing more than re-expressing data in this eigenbasis.
+The covariance matrix $\Sigma$ is always symmetric and positive semidefinite. Hence by the spectral theorem, it has an orthonormal basis of eigenvectors and nonnegative real eigenvalues. [[#Principal Component Analysis (PCA)|PCA]] is nothing more than re-expressing data in this eigenbasis.
 
 ### Why this matters
 
-PCA demonstrates how abstract linear algebra directly powers modern applications. Eigenvalues and eigenvectors give a practical method for simplifying data, revealing patterns, and reducing complexity. It is one of the most important algorithms derived from the spectral theorem.
+[[#Principal Component Analysis (PCA)|PCA]] demonstrates how abstract linear algebra directly powers modern applications. Eigenvalues and eigenvectors give a practical method for simplifying data, revealing patterns, and reducing complexity. It is one of the most important algorithms derived from the spectral theorem.
 
 ### Exercises 9.4
 
 1. Show that the covariance matrix is symmetric and positive semidefinite.
 2. Compute the covariance matrix of the dataset $(1,2), (2,3), (3,4)$, and find its eigenvalues and eigenvectors.
 3. Explain why the first principal component captures the maximum variance.
-4. In image compression, explain how PCA can reduce storage by keeping only the top $k$ principal components.
+4. In image compression, explain how [[#Principal Component Analysis (PCA)|PCA]] can reduce storage by keeping only the top $k$ principal components.
 5. Prove that the sum of the eigenvalues of the covariance matrix equals the total variance of the dataset.
 
 # Chapter 10. Linear Algebra in Practice
@@ -2996,8 +2995,8 @@ Linear algebra provides the foundation for many data science techniques. Two of 
 
 High-dimensional data often contains redundancy: many features are correlated, meaning the data essentially lies near a lower-dimensional subspace. Dimensionality reduction identifies these subspaces.
 
-* PCA (Principal Component Analysis):
-  As introduced earlier, PCA diagonalises the covariance matrix of the data.
+* [[#Principal Component Analysis (PCA)|PCA]] (Principal Component Analysis):
+  As introduced earlier, [[#Principal Component Analysis (PCA)|PCA]] diagonalises the covariance matrix of the data.
 
     * Eigenvectors (principal components) define orthogonal directions of maximum variance.
     * Eigenvalues measure how much variance lies along each direction.
@@ -3062,11 +3061,11 @@ Dimensionality reduction makes large datasets tractable, filters noise, and reve
 
 ### Exercises 10.2
 
-1. Explain why PCA reduces noise in datasets by discarding small eigenvalue components.
+1. Explain why [[#Principal Component Analysis (PCA)|PCA]] reduces noise in datasets by discarding small eigenvalue components.
 2. Compute the least squares solution to fitting a line through $(0,0), (1,1), (2,2)$.
 3. Show that the least squares solution is unique if and only if $A^T A$ is invertible.
 4. Prove that the least squares solution minimises the squared error by projection arguments.
-5. Apply PCA to the data points $(1,0), (2,1), (3,2)$ and find the first principal component.
+5. Apply [[#Principal Component Analysis (PCA)|PCA]] to the data points $(1,0), (2,1), (3,2)$ and find the first principal component.
 
 ## 10.3 Networks and Markov Chains
 
@@ -3159,7 +3158,7 @@ Linear algebra transforms network problems into matrix problems. Eigenvalues and
 
 ## 10.4 Machine Learning Connections
 
-Modern machine learning is built on linear algebra. From the representation of data as matrices to the optimization of large-scale models, nearly every step relies on concepts such as vector spaces, projections, eigenvalues, and matrix decompositions.
+Modern machine learning is built on linear algebra. From the representation of data as matrices to the optimisation of large-scale models, nearly every step relies on concepts such as vector spaces, projections, eigenvalues, and matrix decompositions.
 
 ### Data as Matrices
 
@@ -3176,7 +3175,7 @@ X =
   \end{bmatrix},
   $$
 
-where each row $\mathbf{x}_i \in \mathbb{R}^n$ is a feature vector. Linear algebra provides tools to analyze, compress,
+where each row $\mathbf{x}_i \in \mathbb{R}^n$ is a feature vector. Linear algebra provides tools to analyse, compress,
 and transform this data.
 
 ### Linear Models
@@ -3187,7 +3186,7 @@ $$
 \hat{y} = X\mathbf{w},
 $$
 
-where $\mathbf{w}$ is the weight vector. Training often involves solving a least squares problem or a regularized
+where $\mathbf{w}$ is the weight vector. Training often involves solving a least squares problem or a regularised
 variant such as ridge regression:
 
 $$
@@ -3196,9 +3195,9 @@ $$
 
 This is solved efficiently using matrix factorizations.
 
-### Singular Value Decomposition (SVD)
+### Singular Value Decomposition ([[#Singular Value Decomposition (SVD)|SVD]])
 
-The SVD of a matrix $X$ is
+The [[#Singular Value Decomposition (SVD)|SVD]] of a matrix $X$ is
 
 $$
 X = U \Sigma V^T,
@@ -3207,13 +3206,13 @@ $$
 where $U, V$ are orthogonal and $\Sigma$ is diagonal with nonnegative entries (singular values).
 
 * Singular values measure the importance of directions in feature space.
-* SVD is used for dimensionality reduction (low-rank approximations), topic modeling, and recommender systems.
+* [[#Singular Value Decomposition (SVD)|SVD]] is used for dimensionality reduction (low-rank approximations), topic modelling, and recommender systems.
 
 ### Eigenvalues in Machine Learning
 
-* PCA (Principal Component Analysis): diagonalization of the covariance matrix identifies directions of maximal variance.
+* [[#Principal Component Analysis (PCA)|PCA]] (Principal Component Analysis): diagonalization of the covariance matrix identifies directions of maximal variance.
 * Spectral clustering: uses eigenvectors of the Laplacian to group data points into clusters.
-* Stability analysis: eigenvalues of Hessian matrices determine whether optimization converges to a minimum.
+* Stability analysis: eigenvalues of Hessian matrices determine whether optimisation converges to a minimum.
 
 ### Neural Networks
 
@@ -3235,7 +3234,7 @@ Machine learning models often involve datasets with millions of features and par
    (X^T X + \lambda I)\mathbf{w} = X^T \mathbf{y}.
    $$
 
-2. Explain how SVD can be used to compress an image represented as a matrix of pixel intensities.
+2. Explain how [[#Singular Value Decomposition (SVD)|SVD]] can be used to compress an image represented as a matrix of pixel intensities.
 
 3. For a covariance matrix $\Sigma$, show why its eigenvalues represent variances along principal components.
 
