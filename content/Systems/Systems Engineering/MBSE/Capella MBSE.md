@@ -52,6 +52,8 @@ https://gettingdesignright.com/GDR-Educate/Capella_Tutorial_v6_0/
 **Includes**: 
 1. Includes the functionality of...
 	1. Parent to Child
+2. Synchronous 
+3. Non-negotiable
 
 SITUATION: *if you need to drive to somewhere close*:
 you *extend* the functionality to fill up on petrol
