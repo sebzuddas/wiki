@@ -40,22 +40,19 @@ https://gettingdesignright.com/GDR-Educate/Capella_Tutorial_v6_0/
 
 ### Extends and Includes
 
-
 **Extends**:
 1. Extends the Functionality of...
 	1. Child to Parent
 2. Asynchronous
 3. Optional / Conditional
-4. 
-5. 
 
 **Includes**: 
 1. Includes the functionality of...
 	1. Parent to Child
 2. Synchronous 
 3. Non-negotiable
-
-SITUATION: *if you need to drive to somewhere close*:
+#### Example Situation:
+*if you need to drive to somewhere close*:
 you *extend* the functionality to fill up on petrol
 you *include* the functionality to put your key in the ignition   
 
