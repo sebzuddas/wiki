@@ -122,7 +122,7 @@ flowchart LR
 ### Contextual System Actors
 Capella has the capacity to create *system* actors based on the previously made *operational* actors. These can all typically be ported over using the embedded 'contextually create system actors' tool. 
 
-The contextual system actors diagram creates a new system element, and connects all actors to this element. 
+The contextual system actors diagram creates a new system element, and connects all actors to this element. This element is the system you are designing, noted as the *System of Interest*. The system you are architecting contains *missions*. **Missions are different from [[#Operational Capability (OCB)|capabilities]] in that the system you are designing is designed to realise its *missions* through it's capabilities**. In the system design phase, you import capabilities [[#Operational Analysis]] phase and if needed add additional actors and capabilities that become relevant when considering the system you are designing. 
 
 It is also worth considering **system boundaries** at this point. If your system is a toy catapult, should you include projectiles as part of the system? There are pros and cons - we could provide styrofoam balls, or we could conclude that a user would find their own projectiles. If it was a design decision to include the styrofoam balls, then it is included within the system, and we don't have to define new actors. If we decide to not include it, it is still an entity that interacts with the system, hence needs to be defined as an actor outside the system (system actor). 
 
