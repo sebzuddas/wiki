@@ -147,3 +147,4 @@ This is the phase where **functional requirements** are outlined. Remember that 
 
 ## Logical Architecture
 
+TBC...
