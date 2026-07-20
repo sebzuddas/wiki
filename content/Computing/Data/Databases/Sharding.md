@@ -3,7 +3,7 @@ aliases:
   - sharding
 ---
 # Why Shard a Database?
-- When you outgrow a database. 
+- When you outgrow a database:
 	- You need more writes/second. 
 	- Storage is approaching a limit
 	- Database in general is straining. 

@@ -17,5 +17,5 @@ Consistency is important when every [[Database|database]] write requires a subse
 Availability is important when ...
 
 # Partition Tolerance
-Partition tolerance is almost always non-negotiable in the context of a large-scale software application that has users across the world. This is because these systems are distributed, and the partitioning of data has to happen to account for latency. 
+Partition tolerance is **almost always non-negotiable in the context of a large-scale software** application that has users across the world. This is because these systems are distributed, and the partitioning of data has to happen to account for latency. 
 

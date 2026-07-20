@@ -1,1 +1,2 @@
-- [ACME Labs](https://labs.acme.byu.edu/Pages/intro.html)
+- [ACME Labs](https://labs.acme.byu.edu/Pages/intro.html) - a set of labs for applying mathematics.
+- [OSSU](https://cs.ossu.dev/) - Self-taught, open source computer science courses.
