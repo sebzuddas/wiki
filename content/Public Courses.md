@@ -1,2 +1,3 @@
-- [ACME Labs](https://labs.acme.byu.edu/Pages/intro.html) - a set of labs for applying mathematics.
+- [ACME Labs](https://labs.acme.byu.edu/Pages/intro.html) - a set of labs for applying control theory & mathematics. 
 - [OSSU](https://cs.ossu.dev/) - Self-taught, open source computer science courses.
+- [Control Book](https://github.com/byu-controlbook/controlbook_public) - a publicly available control book. 
