@@ -13,6 +13,6 @@ tags:
   - digital-twins
 ---
 [Eradity | Digital transformation that matters](https://www.eradity.com/) - Digital twins with system simulation underneath. 
-
+[Modelica by Example](https://mbe.modelica.university/) - a self-taught course using OpenModelica. 
 Modelica is acausal, meaning equations can be interpreted by the compiler in the form of $xy = y+x$. 
 

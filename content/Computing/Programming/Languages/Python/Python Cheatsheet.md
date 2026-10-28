@@ -11,9 +11,6 @@ tags:
 # Package Management
 Package management in [[Python]] helps organise collections of downloadable software packages. There are a number of package managers available, each with their own unique advantages. However, [[#UV]] has become a personal favourite. 
 
-## Pip
-## Conda
-## Mamba
 ## UV
 
 
