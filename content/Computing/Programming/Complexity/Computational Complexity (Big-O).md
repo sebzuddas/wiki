@@ -36,7 +36,7 @@ Total operations are then:
 $$
 Operations = 1 + n + n^2
 $$
-Remembering that Big-O is a worst-case analysis, we can drop the least dominant terms: $1 + n$, knowing that our algorithm is dominated by the $n^2$ term. 
+Remembering that Big-O is a worst-case analysis, we can drop the least dominant terms: $1 + n$, knowing that our algorithm is dominated by the $n^2$ term. We can then state that this algorithm has complexity $O(n^2)$.
 
 ### Reducing Big-O
 Though calculating Big-O gives concrete numbers, the more important component is the growth trend. You can see in the below images the different growth orders. 
