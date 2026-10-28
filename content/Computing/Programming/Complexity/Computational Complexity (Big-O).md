@@ -39,18 +39,20 @@ $$
 Remembering that Big-O is a worst-case analysis, we can drop the least dominant terms: $1 + n$, knowing that our algorithm is dominated by the $n^2$ term. We can then state that this algorithm has complexity $O(n^2)$.
 
 ### Reducing Big-O
-Though calculating Big-O gives concrete numbers, the more important component is the growth trend. You can see in the below images the different growth orders. 
+Though calculating Big-O gives concrete numbers, the more important component is the growth trend. You can see in the below images some common growth orders. 
 
 ![orders-of-growth|271](https://media2.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F38mm2a5585gapgsgln6n.jpg)
 
 ![growth image|534](https://msgprogramator.sk/wp-content/uploads/2024/05/graf-big-o-notacie-700-600.webp)
 
-## Time Complexity
+%%## Time Complexity
 
 
-## Space Complexity
+## Space Complexity%%
 
 
 ## Cheatsheet
+
+There is a digital cheatsheet for Big-O [here](https://www.bigocheatsheet.com/). 
 
 ![big-o cheatsheet|700](https://www.bigocheatsheet.com/img/big-o-cheat-sheet-poster.png)
