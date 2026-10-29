@@ -38,8 +38,6 @@ These request methods map to [[Create, Read, Update, Delete (CRUD)|CRUD]] operat
 - If you're returning large results, you'll want to use pagination. 
 
 
-
-
 [More](https://cloud.google.com/discover/what-is-rest-api) on REST APIs. 
 
 ## Server Sent Events (SSE)

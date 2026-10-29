@@ -10,9 +10,6 @@ API design is about creating reasonable endpoints.
 
 ## 3. Data Modelling
 The main question when considering how to model your data is Relational (SQL) or Not Relational (NoSQL). Relational databases are most useful when you prioritise data [[CAP Theorem|Consistency]], since relational databases require relationships between tables, hence they lend themselves to consistency. NoSQL databases like DynamoDB or MongoDB shine when you need flexible schemas (your data structure changes frequently) or you need to scale horizontally across many servers without complex joins.
-
-
-
 ## 4. Database Indexing
 ## 5. Caching
 ## 6. Sharding
